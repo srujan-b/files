@@ -1,0 +1,56 @@
+[0.245s] Invoking command in '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces
+[0.566s] -- The C compiler identification is GNU 9.4.0
+[0.890s] -- The CXX compiler identification is GNU 9.4.0
+[0.922s] -- Check for working C compiler: /usr/bin/cc
+[1.321s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.326s] -- Detecting C compiler ABI info
+[1.753s] -- Detecting C compiler ABI info - done
+[1.828s] -- Detecting C compile features
+[1.830s] -- Detecting C compile features - done
+[1.845s] -- Check for working CXX compiler: /usr/bin/c++
+[2.278s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.286s] -- Detecting CXX compiler ABI info
+[2.745s] -- Detecting CXX compiler ABI info - done
+[2.823s] -- Detecting CXX compile features
+[2.825s] -- Detecting CXX compile features - done
+[2.843s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.061s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.495s] -- Found controller_interface: 0.11.0 (/opt/ros/foxy/share/controller_interface/cmake)
+[4.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.885s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.373s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.533s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.054s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.162s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.178s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.183s] -- Looking for pthread.h
+[10.618s] -- Looking for pthread.h - found
+[10.619s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.063s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[11.063s] -- Looking for pthread_create in pthreads
+[11.403s] -- Looking for pthread_create in pthreads - not found
+[11.406s] -- Looking for pthread_create in pthread
+[11.798s] -- Looking for pthread_create in pthread - found
+[11.806s] -- Found Threads: TRUE  
+[13.955s] CMake Error at CMakeLists.txt:21 (find_package):
+[13.956s]   By not providing "Findrealtime_tools.cmake" in CMAKE_MODULE_PATH this
+[13.956s]   project has asked CMake to find a package configuration file provided by
+[13.956s]   "realtime_tools", but CMake did not find one.
+[13.957s] 
+[13.957s]   Could not find a package configuration file provided by "realtime_tools"
+[13.958s]   with any of the following names:
+[13.958s] 
+[13.959s]     realtime_toolsConfig.cmake
+[13.959s]     realtime_tools-config.cmake
+[13.960s] 
+[13.960s]   Add the installation prefix of "realtime_tools" to CMAKE_PREFIX_PATH or set
+[13.960s]   "realtime_tools_DIR" to a directory containing one of the above files.  If
+[13.961s]   "realtime_tools" provides a separate development package or SDK, be sure it
+[13.961s]   has been installed.
+[13.962s] 
+[13.962s] 
+[13.965s] -- Configuring incomplete, errors occurred!
+[13.966s] See also "/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces/CMakeFiles/CMakeOutput.log".
+[13.968s] See also "/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces/CMakeFiles/CMakeError.log".
+[14.008s] Invoked command in '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces

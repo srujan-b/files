@@ -1,0 +1,855 @@
+[0.000000] (-) TimerEvent: {}
+[0.005014] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.005647] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.008234] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/home/husarion/microros_ws/install/micro_ros_msgs')])}
+[0.008435] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.089858] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.102868] (-) TimerEvent: {}
+[0.181371] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.188271] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/husarion/microros_ws/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/home/husarion/microros_ws/install/micro_ros_msgs'], 'cwd': '/home/husarion/microros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 51506 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion/microros_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/microros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 51506 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[0.206448] (-) TimerEvent: {}
+[0.216705] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.220484] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[0.231435] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/husarion/microros_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/husarion/microros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 51506 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion/microros_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/microros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 51506 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[0.290103] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.306393] (-) TimerEvent: {}
+[0.407669] (-) TimerEvent: {}
+[0.442897] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[0.466088] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.467948] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.507983] (-) TimerEvent: {}
+[0.573139] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[0.608316] (-) TimerEvent: {}
+[0.622429] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/husarion/microros_ws/build/micro_ros_setup'], 'cwd': '/home/husarion/microros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 51506 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion/microros_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/microros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 51506 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[0.672348] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.673622] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[0.674876] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[0.676068] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[0.677000] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[0.678126] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[0.679637] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[0.681038] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[0.682911] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[0.685227] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[0.692862] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[0.694549] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[0.696626] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[0.698576] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[0.714976] (-) TimerEvent: {}
+[0.716429] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[0.717262] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[0.730913] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config\n'}
+[0.732220] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[0.733544] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[0.735657] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[0.736934] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android\n'}
+[0.737720] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[0.739065] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[0.740253] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic\n'}
+[0.744146] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[0.745205] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[0.746457] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[0.747912] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[0.749501] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[0.750528] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[0.751464] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed\n'}
+[0.764115] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[0.764866] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[0.766342] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[0.767774] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic\n'}
+[0.768432] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[0.771437] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[0.772522] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[0.778552] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[0.779340] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[0.780395] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[0.781058] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[0.782111] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[0.786307] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr\n'}
+[0.787376] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[0.791921] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[0.792799] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[0.793540] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[0.794231] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[0.795409] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[0.796413] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[0.797556] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[0.798835] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[0.800136] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[0.801211] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[0.802749] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[0.803693] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[0.804543] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host\n'}
+[0.805382] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[0.806450] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[0.807911] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[0.808700] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic\n'}
+[0.809390] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[0.810231] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[0.810897] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[0.811701] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[0.812403] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[0.813081] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[0.813726] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos\n'}
+[0.814443] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[0.815076] (-) TimerEvent: {}
+[0.815808] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[0.816655] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[0.817344] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[0.818081] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[0.818798] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[0.819435] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[0.820053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[0.820676] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[0.821311] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[0.822280] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[0.823210] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[0.824042] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[0.824829] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[0.825719] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[0.826482] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[0.827386] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[0.828454] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[0.829185] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[0.830110] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[0.831009] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[0.831805] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[0.832452] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[0.833043] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[0.833709] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[0.834427] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[0.835043] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[0.835732] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[0.836338] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[0.836975] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[0.837614] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[0.838350] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[0.839088] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[0.839647] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[0.840290] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[0.841022] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[0.841655] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[0.842425] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[0.842994] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[0.843672] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[0.844305] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[0.844990] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[0.845602] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[0.846408] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[0.847066] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[0.847694] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[0.848240] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[0.860125] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[0.862721] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[0.863601] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[0.864541] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[0.866112] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[0.867918] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[0.868666] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[0.869556] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[0.871190] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[0.871907] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[0.874428] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[0.875199] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[0.877576] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[0.878386] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[0.880187] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[0.881240] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[0.883917] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[0.896018] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[0.897249] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[0.900802] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[0.901686] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[0.903218] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[0.903918] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[0.906047] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[0.906850] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[0.907650] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[0.909160] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[0.912621] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[0.913482] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[0.914414] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[0.915878] (-) TimerEvent: {}
+[0.919607] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[0.920740] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[0.922343] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian\n'}
+[0.923053] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[0.926046] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[0.926814] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[0.927652] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[0.929727] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[0.930820] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[0.931598] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[0.933208] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[0.939314] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[0.939852] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[0.940299] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[0.940774] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[0.941487] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[0.943453] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[0.944014] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[0.944517] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[0.944968] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[0.945400] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[0.945830] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[0.947687] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[0.950724] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[0.951241] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[0.951726] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[0.952166] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[0.952594] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[0.953063] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[0.953495] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[0.953979] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[0.954437] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[0.954865] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[0.955289] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[0.955707] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[0.956152] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[1.016107] (-) TimerEvent: {}
+[1.118215] (-) TimerEvent: {}
+[1.127259] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[1.218456] (-) TimerEvent: {}
+[1.319863] (-) TimerEvent: {}
+[1.421282] (-) TimerEvent: {}
+[1.522799] (-) TimerEvent: {}
+[1.624357] (-) TimerEvent: {}
+[1.663679] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.690354] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.713380] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.724571] (-) TimerEvent: {}
+[1.826371] (-) TimerEvent: {}
+[1.927767] (-) TimerEvent: {}
+[2.028670] (-) TimerEvent: {}
+[2.130213] (-) TimerEvent: {}
+[2.231603] (-) TimerEvent: {}
+[2.332689] (-) TimerEvent: {}
+[2.435256] (-) TimerEvent: {}
+[2.480187] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.535492] (-) TimerEvent: {}
+[2.636109] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.637905] (-) TimerEvent: {}
+[2.739284] (-) TimerEvent: {}
+[2.840079] (-) TimerEvent: {}
+[2.941234] (-) TimerEvent: {}
+[3.042195] (-) TimerEvent: {}
+[3.143438] (-) TimerEvent: {}
+[3.208413] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[3.243690] (-) TimerEvent: {}
+[3.345292] (-) TimerEvent: {}
+[3.446900] (-) TimerEvent: {}
+[3.548427] (-) TimerEvent: {}
+[3.650007] (-) TimerEvent: {}
+[3.651997] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[3.750301] (-) TimerEvent: {}
+[3.851950] (-) TimerEvent: {}
+[3.954011] (-) TimerEvent: {}
+[4.055600] (-) TimerEvent: {}
+[4.156748] (-) TimerEvent: {}
+[4.193555] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.248029] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.256978] (-) TimerEvent: {}
+[4.358758] (-) TimerEvent: {}
+[4.430320] (micro_ros_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[4.434130] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.459011] (-) TimerEvent: {}
+[4.560471] (-) TimerEvent: {}
+[4.617039] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.619145] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.620721] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.660647] (-) TimerEvent: {}
+[4.743508] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.760906] (-) TimerEvent: {}
+[4.857126] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.861145] (-) TimerEvent: {}
+[4.918739] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.949794] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.961399] (-) TimerEvent: {}
+[5.062912] (-) TimerEvent: {}
+[5.162696] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[5.164335] (-) TimerEvent: {}
+[5.183596] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/husarion/microros_ws/build/micro_ros_msgs\n'}
+[5.228247] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[5.231204] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[5.232769] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/husarion/microros_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/husarion/microros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 51506 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion/microros_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/microros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 51506 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[5.264670] (-) TimerEvent: {}
+[5.365885] (-) TimerEvent: {}
+[5.467475] (-) TimerEvent: {}
+[5.541046] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[5.551277] (micro_ros_msgs) StdoutLine: {'line': b'[ 12%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[5.567687] (-) TimerEvent: {}
+[5.660134] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.663156] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[5.667999] (-) TimerEvent: {}
+[5.678754] (micro_ros_msgs) StdoutLine: {'line': b'[ 44%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[5.682684] (micro_ros_msgs) StdoutLine: {'line': b'[ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.768129] (-) TimerEvent: {}
+[5.771084] (micro_ros_msgs) StdoutLine: {'line': b'[ 65%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[5.811311] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.868492] (-) TimerEvent: {}
+[5.930649] (micro_ros_msgs) StdoutLine: {'line': b'[ 76%] Built target micro_ros_msgs\n'}
+[5.968867] (-) TimerEvent: {}
+[6.064908] (micro_ros_msgs) StdoutLine: {'line': b'[ 78%] Built target micro_ros_msgs__py\n'}
+[6.069068] (-) TimerEvent: {}
+[6.169900] (-) TimerEvent: {}
+[6.226998] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__python\n'}
+[6.270116] (-) TimerEvent: {}
+[6.356756] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.364182] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.369515] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[6.370705] (-) TimerEvent: {}
+[6.429783] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[6.471176] (-) TimerEvent: {}
+[6.573693] (-) TimerEvent: {}
+[6.674825] (-) TimerEvent: {}
+[6.776919] (-) TimerEvent: {}
+[6.877845] (-) TimerEvent: {}
+[6.978852] (-) TimerEvent: {}
+[7.010167] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[7.013596] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/husarion/microros_ws/build/micro_ros_msgs'], 'cwd': '/home/husarion/microros_ws/build/micro_ros_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 51506 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion/microros_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/microros_ws/build/micro_ros_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 51506 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[7.073852] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.078444] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[7.080230] (-) TimerEvent: {}
+[7.082845] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[7.083680] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[7.084146] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[7.084975] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[7.085777] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[7.086332] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[7.086893] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[7.087358] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[7.087804] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[7.088357] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[7.089145] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[7.089988] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[7.090495] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[7.091065] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[7.091728] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[7.092200] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.h\n'}
+[7.092652] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.093102] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.h\n'}
+[7.093548] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.h\n'}
+[7.094162] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[7.094607] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[7.095294] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[7.096074] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[7.096892] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[7.097589] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[7.098487] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[7.099046] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[7.099485] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[7.100060] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.100506] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[7.100936] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[7.101357] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[7.101778] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[7.102375] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.102823] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.103253] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[7.103871] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.104310] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.104889] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.105330] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[7.105754] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[7.106260] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.106831] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[7.107440] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[7.108039] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[7.108575] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[7.109025] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[7.109520] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[7.110200] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[7.110782] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[7.111418] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[7.112036] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[7.112649] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[7.113226] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[7.113790] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[7.114417] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[7.114981] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[7.115521] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[7.116263] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[7.116907] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[7.117503] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[7.118138] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[7.118791] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[7.119354] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/node.hpp\n'}
+[7.119917] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/entity.hpp\n'}
+[7.120507] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/graph.hpp\n'}
+[7.121078] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs\n'}
+[7.121624] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg\n'}
+[7.122260] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail\n'}
+[7.122857] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.123455] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[7.124017] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.124583] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.125172] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[7.125729] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/include/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[7.126401] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[7.127057] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[7.127664] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[7.128252] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[7.128795] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py\n'}
+[7.180398] (-) TimerEvent: {}
+[7.281279] (-) TimerEvent: {}
+[7.300976] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/__init__.py'...\n"}
+[7.324837] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg\n'}
+[7.327000] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph.py\n'}
+[7.328934] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[7.330585] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/__init__.py\n'}
+[7.332555] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node.py\n'}
+[7.334269] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[7.337062] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_entity.py\n'}
+[7.338543] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[7.338992] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.339741] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.340237] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[7.341217] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__python.so\n'}
+[7.341867] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[7.342732] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[7.343450] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[7.343894] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[7.344321] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[7.345018] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[7.345453] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[7.346188] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[7.346872] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[7.347309] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[7.347908] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[7.348492] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[7.348928] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[7.349607] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[7.350105] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[7.350626] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[7.351293] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[7.351956] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[7.352469] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[7.353185] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.353655] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.354153] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.354796] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[7.355313] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.356202] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[7.356814] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.357661] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.358202] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[7.358968] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.359662] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[7.360419] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.361059] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.361793] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.362497] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.363182] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.363666] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.364149] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[7.364577] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[7.365021] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[7.369369] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[7.389862] (-) TimerEvent: {}
+[7.494986] (-) TimerEvent: {}
+[7.597718] (-) TimerEvent: {}
+[7.699355] (-) TimerEvent: {}
+[7.801255] (-) TimerEvent: {}
+[7.902143] (-) TimerEvent: {}
+[8.004586] (-) TimerEvent: {}
+[8.105880] (-) TimerEvent: {}
+[8.173263] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[8.193503] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[8.207962] (-) TimerEvent: {}
+[8.282500] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[8.288370] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/husarion/microros_ws/install/micro_ros_agent'], 'cwd': '/home/husarion/microros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 51506 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/microros_ws/install/micro_ros_msgs/lib:/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion/microros_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/microros_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 51506 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[8.308284] (-) TimerEvent: {}
+[8.366894] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[8.408454] (-) TimerEvent: {}
+[8.510195] (-) TimerEvent: {}
+[8.551193] (micro_ros_agent) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.610438] (-) TimerEvent: {}
+[8.711205] (-) TimerEvent: {}
+[8.811933] (-) TimerEvent: {}
+[8.912692] (-) TimerEvent: {}
+[9.013507] (-) TimerEvent: {}
+[9.114258] (-) TimerEvent: {}
+[9.215236] (-) TimerEvent: {}
+[9.316038] (-) TimerEvent: {}
+[9.416752] (-) TimerEvent: {}
+[9.517481] (-) TimerEvent: {}
+[9.618376] (-) TimerEvent: {}
+[9.719297] (-) TimerEvent: {}
+[9.810032] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 1.2.1 (/opt/ros/foxy/share/rosidl_cmake/cmake)\n'}
+[9.812419] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[9.819522] (-) TimerEvent: {}
+[9.920401] (-) TimerEvent: {}
+[9.922005] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 1.0.4 (/opt/ros/foxy/share/fastrtps_cmake_module/cmake)\n'}
+[9.924180] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.0.3 (/opt/ros/foxy/share/rmw_dds_common/cmake)\n'}
+[10.020689] (-) TimerEvent: {}
+[10.078965] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.120914] (-) TimerEvent: {}
+[10.222234] (-) TimerEvent: {}
+[10.323196] (-) TimerEvent: {}
+[10.424735] (-) TimerEvent: {}
+[10.526231] (-) TimerEvent: {}
+[10.627169] (-) TimerEvent: {}
+[10.726837] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.727563] (-) TimerEvent: {}
+[10.828309] (-) TimerEvent: {}
+[10.906025] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 1.3.0 (/opt/ros/foxy/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[10.928509] (-) TimerEvent: {}
+[11.029428] (-) TimerEvent: {}
+[11.130990] (-) TimerEvent: {}
+[11.151356] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[11.158709] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)\n'}
+[11.162906] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 3.0.0 (/home/husarion/microros_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[11.231230] (-) TimerEvent: {}
+[11.332491] (-) TimerEvent: {}
+[11.434071] (-) TimerEvent: {}
+[11.535599] (-) TimerEvent: {}
+[11.613871] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.635829] (-) TimerEvent: {}
+[11.651178] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[11.658635] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/husarion/microros_ws/build/micro_ros_agent\n'}
+[11.690504] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[11.697197] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[11.699079] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/husarion/microros_ws/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/husarion/microros_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 51506 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/microros_ws/install/micro_ros_msgs/lib:/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion/microros_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/microros_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 51506 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[11.736254] (-) TimerEvent: {}
+[11.838227] (-) TimerEvent: {}
+[11.940015] (-) TimerEvent: {}
+[12.041058] (-) TimerEvent: {}
+[12.088707] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[12.092951] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[12.093901] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[12.129344] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[12.141299] (-) TimerEvent: {}
+[12.242138] (-) TimerEvent: {}
+[12.342971] (-) TimerEvent: {}
+[12.443841] (-) TimerEvent: {}
+[12.544737] (-) TimerEvent: {}
+[12.645566] (-) TimerEvent: {}
+[12.746511] (-) TimerEvent: {}
+[12.847485] (-) TimerEvent: {}
+[12.948452] (-) TimerEvent: {}
+[13.049528] (-) TimerEvent: {}
+[13.150515] (-) TimerEvent: {}
+[13.251491] (-) TimerEvent: {}
+[13.352488] (-) TimerEvent: {}
+[13.453461] (-) TimerEvent: {}
+[13.554437] (-) TimerEvent: {}
+[13.655403] (-) TimerEvent: {}
+[13.756409] (-) TimerEvent: {}
+[13.857443] (-) TimerEvent: {}
+[13.958430] (-) TimerEvent: {}
+[14.059425] (-) TimerEvent: {}
+[14.160434] (-) TimerEvent: {}
+[14.261648] (-) TimerEvent: {}
+[14.362657] (-) TimerEvent: {}
+[14.463665] (-) TimerEvent: {}
+[14.564639] (-) TimerEvent: {}
+[14.665554] (-) TimerEvent: {}
+[14.766473] (-) TimerEvent: {}
+[14.867911] (-) TimerEvent: {}
+[14.970123] (-) TimerEvent: {}
+[15.071607] (-) TimerEvent: {}
+[15.172774] (-) TimerEvent: {}
+[15.273697] (-) TimerEvent: {}
+[15.374706] (-) TimerEvent: {}
+[15.475611] (-) TimerEvent: {}
+[15.576679] (-) TimerEvent: {}
+[15.677657] (-) TimerEvent: {}
+[15.778645] (-) TimerEvent: {}
+[15.879502] (-) TimerEvent: {}
+[15.980345] (-) TimerEvent: {}
+[16.081337] (-) TimerEvent: {}
+[16.182256] (-) TimerEvent: {}
+[16.283094] (-) TimerEvent: {}
+[16.383936] (-) TimerEvent: {}
+[16.484785] (-) TimerEvent: {}
+[16.585648] (-) TimerEvent: {}
+[16.686550] (-) TimerEvent: {}
+[16.787391] (-) TimerEvent: {}
+[16.888250] (-) TimerEvent: {}
+[16.989199] (-) TimerEvent: {}
+[17.090630] (-) TimerEvent: {}
+[17.191502] (-) TimerEvent: {}
+[17.292317] (-) TimerEvent: {}
+[17.393151] (-) TimerEvent: {}
+[17.494117] (-) TimerEvent: {}
+[17.594945] (-) TimerEvent: {}
+[17.695813] (-) TimerEvent: {}
+[17.796659] (-) TimerEvent: {}
+[17.897518] (-) TimerEvent: {}
+[17.998428] (-) TimerEvent: {}
+[18.099881] (-) TimerEvent: {}
+[18.200760] (-) TimerEvent: {}
+[18.301615] (-) TimerEvent: {}
+[18.402525] (-) TimerEvent: {}
+[18.503405] (-) TimerEvent: {}
+[18.604261] (-) TimerEvent: {}
+[18.710243] (-) TimerEvent: {}
+[18.811659] (-) TimerEvent: {}
+[18.912559] (-) TimerEvent: {}
+[19.013433] (-) TimerEvent: {}
+[19.115055] (-) TimerEvent: {}
+[19.216446] (-) TimerEvent: {}
+[19.317862] (-) TimerEvent: {}
+[19.419514] (-) TimerEvent: {}
+[19.520902] (-) TimerEvent: {}
+[19.622352] (-) TimerEvent: {}
+[19.723756] (-) TimerEvent: {}
+[19.825142] (-) TimerEvent: {}
+[19.926420] (-) TimerEvent: {}
+[19.972377] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kuros::agent::graph_manager::ParticipantEntitiesInfoTypeSupport::ParticipantEntitiesInfoTypeSupport()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.973610] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:47:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind non-const lvalue reference of type \xe2\x80\x98\x1b[01m\x1b[Kbool&\x1b[m\x1b[K\xe2\x80\x99 to an rvalue of type \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.974705] (micro_ros_agent) StderrLine: {'line': b'   47 |     m_typeSize = 4 + callbacks_->max_serialized_size(\x1b[01;31m\x1b[Kfull_bounded\x1b[m\x1b[K);\n'}
+[19.975559] (micro_ros_agent) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[19.986906] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kuros::agent::graph_manager::MicrorosGraphInfoTypeSupport::MicrorosGraphInfoTypeSupport()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[19.987716] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:139:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot bind non-const lvalue reference of type \xe2\x80\x98\x1b[01m\x1b[Kbool&\x1b[m\x1b[K\xe2\x80\x99 to an rvalue of type \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[19.988383] (micro_ros_agent) StderrLine: {'line': b'  139 |     m_typeSize = 4 + callbacks_->max_serialized_size(\x1b[01;31m\x1b[Kfull_bounded\x1b[m\x1b[K);\n'}
+[19.989011] (micro_ros_agent) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.026637] (-) TimerEvent: {}
+[20.127981] (-) TimerEvent: {}
+[20.229419] (-) TimerEvent: {}
+[20.322811] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid uros::agent::graph_manager::GraphManager::update_node_entities_info()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.324079] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:550:86:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KALIVE_INSTANCE_STATE\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Keprosima::fastdds::dds::InstanceStateKind\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.325378] (micro_ros_agent) StderrLine: {'line': b'  550 |         if (sample_info.instance_state == eprosima::fastdds::dds::InstanceStateKind::\x1b[01;31m\x1b[KALIVE_INSTANCE_STATE\x1b[m\x1b[K)\n'}
+[20.327177] (micro_ros_agent) StderrLine: {'line': b'      |                                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.329580] (-) TimerEvent: {}
+[20.345270] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Keprosima::fastdds::dds::DataWriterQos uros::agent::graph_manager::writer_qos_conversion(const eprosima::fastdds::dds::WriterQos&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.346302] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:654:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass eprosima::fastdds::dds::DataWriterQos\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata_sharing\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.347057] (micro_ros_agent) StderrLine: {'line': b'  654 |     datawriter_qos.\x1b[01;31m\x1b[Kdata_sharing\x1b[m\x1b[K(writer_qos.data_sharing);\n'}
+[20.348311] (micro_ros_agent) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.348907] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:654:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst class eprosima::fastdds::dds::WriterQos\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata_sharing\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.349522] (micro_ros_agent) StderrLine: {'line': b'  654 |     datawriter_qos.data_sharing(writer_qos.\x1b[01;31m\x1b[Kdata_sharing\x1b[m\x1b[K);\n'}
+[20.350980] (micro_ros_agent) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.351966] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Keprosima::fastdds::dds::DataReaderQos uros::agent::graph_manager::reader_qos_conversion(const eprosima::fastdds::dds::ReaderQos&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.352658] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:678:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass eprosima::fastdds::dds::DataReaderQos\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata_sharing\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.353301] (micro_ros_agent) StderrLine: {'line': b'  678 |     datareader_qos.\x1b[01;31m\x1b[Kdata_sharing\x1b[m\x1b[K(reader_qos.data_sharing);\n'}
+[20.353906] (micro_ros_agent) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.354701] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:678:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst class eprosima::fastdds::dds::ReaderQos\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kdata_sharing\x1b[m\x1b[K\xe2\x80\x99\n'}
+[20.355412] (micro_ros_agent) StderrLine: {'line': b'  678 |     datareader_qos.data_sharing(reader_qos.\x1b[01;31m\x1b[Kdata_sharing\x1b[m\x1b[K);\n'}
+[20.356544] (micro_ros_agent) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.429788] (-) TimerEvent: {}
+[20.531172] (-) TimerEvent: {}
+[20.633099] (-) TimerEvent: {}
+[20.734494] (-) TimerEvent: {}
+[20.835960] (-) TimerEvent: {}
+[20.938495] (-) TimerEvent: {}
+[21.039331] (-) TimerEvent: {}
+[21.140187] (-) TimerEvent: {}
+[21.241127] (-) TimerEvent: {}
+[21.342166] (-) TimerEvent: {}
+[21.443003] (-) TimerEvent: {}
+[21.543863] (-) TimerEvent: {}
+[21.644728] (-) TimerEvent: {}
+[21.745570] (-) TimerEvent: {}
+[21.846512] (-) TimerEvent: {}
+[21.947379] (-) TimerEvent: {}
+[22.048234] (-) TimerEvent: {}
+[22.149117] (-) TimerEvent: {}
+[22.249994] (-) TimerEvent: {}
+[22.350835] (-) TimerEvent: {}
+[22.451729] (-) TimerEvent: {}
+[22.552861] (-) TimerEvent: {}
+[22.653771] (-) TimerEvent: {}
+[22.754781] (-) TimerEvent: {}
+[22.855694] (-) TimerEvent: {}
+[22.956618] (-) TimerEvent: {}
+[23.057538] (-) TimerEvent: {}
+[23.158609] (-) TimerEvent: {}
+[23.259510] (-) TimerEvent: {}
+[23.360404] (-) TimerEvent: {}
+[23.461305] (-) TimerEvent: {}
+[23.562249] (-) TimerEvent: {}
+[23.589871] (micro_ros_agent) StderrLine: {'line': b'make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:102: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o] Error 1\n'}
+[23.590912] (micro_ros_agent) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[23.662439] (-) TimerEvent: {}
+[23.763621] (-) TimerEvent: {}
+[23.864682] (-) TimerEvent: {}
+[23.965659] (-) TimerEvent: {}
+[24.066575] (-) TimerEvent: {}
+[24.167424] (-) TimerEvent: {}
+[24.268345] (-) TimerEvent: {}
+[24.369298] (-) TimerEvent: {}
+[24.470254] (-) TimerEvent: {}
+[24.571188] (-) TimerEvent: {}
+[24.672089] (-) TimerEvent: {}
+[24.773031] (-) TimerEvent: {}
+[24.874018] (-) TimerEvent: {}
+[24.901602] (micro_ros_agent) StderrLine: {'line': b'make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:89: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o] Error 1\n'}
+[24.974382] (-) TimerEvent: {}
+[25.075964] (-) TimerEvent: {}
+[25.177464] (-) TimerEvent: {}
+[25.279811] (-) TimerEvent: {}
+[25.382195] (-) TimerEvent: {}
+[25.484497] (-) TimerEvent: {}
+[25.585378] (-) TimerEvent: {}
+[25.687016] (-) TimerEvent: {}
+[25.788454] (-) TimerEvent: {}
+[25.889742] (-) TimerEvent: {}
+[25.991216] (-) TimerEvent: {}
+[26.042595] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[26.043811] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:82:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.044813] (micro_ros_agent) StderrLine: {'line': b'   82 |                 graph_manager_->add_datawriter(datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, participant, datawriter);\n'}
+[26.047144] (micro_ros_agent) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.048584] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.049845] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.051363] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.052811] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.054217] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.054664] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.055085] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.055496] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.055909] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:84:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.056418] (micro_ros_agent) StderrLine: {'line': b'   84 |                     datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, participant, dds::xrce::OBJK_DATAWRITER);\n'}
+[26.056867] (micro_ros_agent) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.057310] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.057748] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.058229] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.059083] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.060776] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.061233] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.061660] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.062135] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.062573] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[26.063058] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:104:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.063495] (micro_ros_agent) StderrLine: {'line': b'  104 |                 graph_manager_->remove_datawriter(datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[26.063911] (micro_ros_agent) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.064322] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.065217] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.065703] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.066201] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.066635] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.067053] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.067529] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.067971] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.068401] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[26.068829] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:177:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.069256] (micro_ros_agent) StderrLine: {'line': b'  177 |                 graph_manager_->add_datawriter(datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, participant, datawriter);\n'}
+[26.069671] (micro_ros_agent) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.071481] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.071976] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.072437] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.072900] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.073319] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.073755] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.074235] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.074658] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.075076] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:179:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.075762] (micro_ros_agent) StderrLine: {'line': b'  179 |                     datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, participant, dds::xrce::OBJK_DATAWRITER);\n'}
+[26.076508] (micro_ros_agent) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.076979] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.077415] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.077835] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.078349] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.078775] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.079188] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.079603] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.080014] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.080427] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[26.080843] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:209:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.081306] (micro_ros_agent) StderrLine: {'line': b'  209 |                 graph_manager_->remove_datawriter(datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[26.081726] (micro_ros_agent) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.082168] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.082605] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.083032] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.083453] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.083873] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.084289] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.084739] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.085166] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.085585] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[26.086036] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:238:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.086545] (micro_ros_agent) StderrLine: {'line': b'  238 |                 graph_manager_->add_datawriter(datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, participant, datawriter);\n'}
+[26.086974] (micro_ros_agent) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.087396] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.087819] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.088240] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.088660] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.089083] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.089537] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.089986] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.090424] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.090853] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:240:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.091296] (-) TimerEvent: {}
+[26.092050] (micro_ros_agent) StderrLine: {'line': b'  240 |                     datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K, participant, dds::xrce::OBJK_DATAWRITER);\n'}
+[26.092618] (micro_ros_agent) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.093042] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.093459] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.093873] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.094344] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.094763] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.095174] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.095589] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.095998] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.096406] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[26.096814] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:270:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastdds::dds::DataWriter\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[26.097311] (micro_ros_agent) StderrLine: {'line': b'  270 |                 graph_manager_->remove_datawriter(datawriter->guid(\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[26.097731] (micro_ros_agent) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[26.098177] (micro_ros_agent) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22\x1b[m\x1b[K,\n'}
+[26.098629] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19\x1b[m\x1b[K,\n'}
+[26.099044] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22\x1b[m\x1b[K,\n'}
+[26.099479] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20\x1b[m\x1b[K,\n'}
+[26.099894] (micro_ros_agent) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18\x1b[m\x1b[K:\n'}
+[26.100304] (micro_ros_agent) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[26.100720] (micro_ros_agent) StderrLine: {'line': b'  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& \x1b[01;36m\x1b[Kguid\x1b[m\x1b[K();\n'}
+[26.101130] (micro_ros_agent) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[26.191585] (-) TimerEvent: {}
+[26.293028] (-) TimerEvent: {}
+[26.394590] (-) TimerEvent: {}
+[26.496071] (-) TimerEvent: {}
+[26.597516] (-) TimerEvent: {}
+[26.698883] (-) TimerEvent: {}
+[26.800211] (-) TimerEvent: {}
+[26.901630] (-) TimerEvent: {}
+[27.003123] (-) TimerEvent: {}
+[27.104465] (-) TimerEvent: {}
+[27.205977] (-) TimerEvent: {}
+[27.307405] (-) TimerEvent: {}
+[27.408811] (-) TimerEvent: {}
+[27.510233] (-) TimerEvent: {}
+[27.611687] (-) TimerEvent: {}
+[27.713084] (-) TimerEvent: {}
+[27.814044] (-) TimerEvent: {}
+[27.915201] (-) TimerEvent: {}
+[28.016590] (-) TimerEvent: {}
+[28.118120] (-) TimerEvent: {}
+[28.219502] (-) TimerEvent: {}
+[28.320825] (-) TimerEvent: {}
+[28.422289] (-) TimerEvent: {}
+[28.523639] (-) TimerEvent: {}
+[28.625005] (-) TimerEvent: {}
+[28.726539] (-) TimerEvent: {}
+[28.827950] (-) TimerEvent: {}
+[28.929352] (-) TimerEvent: {}
+[29.030953] (-) TimerEvent: {}
+[29.132443] (-) TimerEvent: {}
+[29.233891] (-) TimerEvent: {}
+[29.335400] (-) TimerEvent: {}
+[29.436926] (-) TimerEvent: {}
+[29.538413] (-) TimerEvent: {}
+[29.639814] (-) TimerEvent: {}
+[29.741296] (-) TimerEvent: {}
+[29.842823] (-) TimerEvent: {}
+[29.944402] (-) TimerEvent: {}
+[30.045334] (-) TimerEvent: {}
+[30.146357] (-) TimerEvent: {}
+[30.247803] (-) TimerEvent: {}
+[30.349242] (-) TimerEvent: {}
+[30.450755] (-) TimerEvent: {}
+[30.552158] (-) TimerEvent: {}
+[30.653615] (-) TimerEvent: {}
+[30.755155] (-) TimerEvent: {}
+[30.856646] (-) TimerEvent: {}
+[30.958179] (-) TimerEvent: {}
+[31.059703] (-) TimerEvent: {}
+[31.161274] (-) TimerEvent: {}
+[31.262841] (-) TimerEvent: {}
+[31.364252] (-) TimerEvent: {}
+[31.465684] (-) TimerEvent: {}
+[31.473337] (micro_ros_agent) StderrLine: {'line': b'make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:76: CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o] Error 1\n'}
+[31.475442] (micro_ros_agent) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/micro_ros_agent.dir/all] Error 2\n'}
+[31.477535] (micro_ros_agent) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[31.488004] (micro_ros_agent) CommandEnded: {'returncode': 2}
+[31.566095] (-) TimerEvent: {}
+[31.667320] (-) TimerEvent: {}
+[31.773630] (-) TimerEvent: {}
+[31.794887] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 2}
+[31.807253] (-) EventReactorShutdown: {}

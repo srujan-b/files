@@ -1,0 +1,137 @@
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:[m[K In constructor ‘[01m[Kuros::agent::graph_manager::ParticipantEntitiesInfoTypeSupport::ParticipantEntitiesInfoTypeSupport()[m[K’:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:47:54:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kbool&[m[K’ to an rvalue of type ‘[01m[Kbool[m[K’
+   47 |     m_typeSize = 4 + callbacks_->max_serialized_size([01;31m[Kfull_bounded[m[K);
+      |                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:[m[K In constructor ‘[01m[Kuros::agent::graph_manager::MicrorosGraphInfoTypeSupport::MicrorosGraphInfoTypeSupport()[m[K’:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_typesupport.cpp:139:54:[m[K [01;31m[Kerror: [m[Kcannot bind non-const lvalue reference of type ‘[01m[Kbool&[m[K’ to an rvalue of type ‘[01m[Kbool[m[K’
+  139 |     m_typeSize = 4 + callbacks_->max_serialized_size([01;31m[Kfull_bounded[m[K);
+      |                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In member function ‘[01m[Kvoid uros::agent::graph_manager::GraphManager::update_node_entities_info()[m[K’:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:550:86:[m[K [01;31m[Kerror: [m[K‘[01m[KALIVE_INSTANCE_STATE[m[K’ is not a member of ‘[01m[Keprosima::fastdds::dds::InstanceStateKind[m[K’
+  550 |         if (sample_info.instance_state == eprosima::fastdds::dds::InstanceStateKind::[01;31m[KALIVE_INSTANCE_STATE[m[K)
+      |                                                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In function ‘[01m[Keprosima::fastdds::dds::DataWriterQos uros::agent::graph_manager::writer_qos_conversion(const eprosima::fastdds::dds::WriterQos&)[m[K’:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:654:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass eprosima::fastdds::dds::DataWriterQos[m[K’ has no member named ‘[01m[Kdata_sharing[m[K’
+  654 |     datawriter_qos.[01;31m[Kdata_sharing[m[K(writer_qos.data_sharing);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:654:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class eprosima::fastdds::dds::WriterQos[m[K’ has no member named ‘[01m[Kdata_sharing[m[K’
+  654 |     datawriter_qos.data_sharing(writer_qos.[01;31m[Kdata_sharing[m[K);
+      |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:[m[K In function ‘[01m[Keprosima::fastdds::dds::DataReaderQos uros::agent::graph_manager::reader_qos_conversion(const eprosima::fastdds::dds::ReaderQos&)[m[K’:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:678:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass eprosima::fastdds::dds::DataReaderQos[m[K’ has no member named ‘[01m[Kdata_sharing[m[K’
+  678 |     datareader_qos.[01;31m[Kdata_sharing[m[K(reader_qos.data_sharing);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/graph_manager/graph_manager.cpp:678:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class eprosima::fastdds::dds::ReaderQos[m[K’ has no member named ‘[01m[Kdata_sharing[m[K’
+  678 |     datareader_qos.data_sharing(reader_qos.[01;31m[Kdata_sharing[m[K);
+      |                                            [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:102: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:89: CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o] Error 1
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:[m[K In lambda function:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:82:65:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   82 |                 graph_manager_->add_datawriter(datawriter->guid([01;31m[K)[m[K, participant, datawriter);
+      |                                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:84:38:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   84 |                     datawriter->guid([01;31m[K)[m[K, participant, dds::xrce::OBJK_DATAWRITER);
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:[m[K In lambda function:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:104:68:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  104 |                 graph_manager_->remove_datawriter(datawriter->guid([01;31m[K)[m[K);
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:[m[K In lambda function:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:177:65:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  177 |                 graph_manager_->add_datawriter(datawriter->guid([01;31m[K)[m[K, participant, datawriter);
+      |                                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:179:38:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  179 |                     datawriter->guid([01;31m[K)[m[K, participant, dds::xrce::OBJK_DATAWRITER);
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:[m[K In lambda function:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:209:68:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  209 |                 graph_manager_->remove_datawriter(datawriter->guid([01;31m[K)[m[K);
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:[m[K In lambda function:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:238:65:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  238 |                 graph_manager_->add_datawriter(datawriter->guid([01;31m[K)[m[K, participant, datawriter);
+      |                                                                 [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:240:38:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  240 |                     datawriter->guid([01;31m[K)[m[K, participant, dds::xrce::OBJK_DATAWRITER);
+      |                                      [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:[m[K In lambda function:
+[01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:270:68:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst eprosima::fastdds::dds::DataWriter[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  270 |                 graph_manager_->remove_datawriter(datawriter->guid([01;31m[K)[m[K);
+      |                                                                    [01;31m[K^[m[K
+In file included from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp:19[m[K,
+                 from [01m[K/home/husarion/microros_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp:22[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/include/agent/Agent.hpp:20[m[K,
+                 from [01m[K/home/husarion/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent/src/agent/Agent.cpp:18[m[K:
+[01m[K/opt/ros/foxy/include/fastdds/dds/publisher/DataWriter.hpp:162:47:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kconst eprosima::fastrtps::rtps::GUID_t& eprosima::fastdds::dds::DataWriter::guid()[m[K’
+  162 |     RTPS_DllAPI const fastrtps::rtps::GUID_t& [01;36m[Kguid[m[K();
+      |                                               [01;36m[K^~~~[m[K
+make[2]: *** [CMakeFiles/micro_ros_agent.dir/build.make:76: CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/micro_ros_agent.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

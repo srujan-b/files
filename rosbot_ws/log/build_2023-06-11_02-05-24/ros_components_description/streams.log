@@ -1,0 +1,21 @@
+[0.281s] Invoking command in '/home/husarion/ros2_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/ros2_ws/src/ros_components_description -DCMAKE_INSTALL_PREFIX=/home/husarion/ros2_ws/install/ros_components_description
+[0.897s] -- The C compiler identification is GNU 9.4.0
+[1.529s] -- The CXX compiler identification is GNU 9.4.0
+[1.590s] -- Check for working C compiler: /usr/bin/cc
+[2.012s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.020s] -- Detecting C compiler ABI info
+[2.423s] -- Detecting C compiler ABI info - done
+[2.518s] -- Detecting C compile features
+[2.522s] -- Detecting C compile features - done
+[2.538s] -- Check for working CXX compiler: /usr/bin/c++
+[2.957s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.964s] -- Detecting CXX compiler ABI info
+[3.401s] -- Detecting CXX compiler ABI info - done
+[3.482s] -- Detecting CXX compile features
+[3.485s] -- Detecting CXX compile features - done
+[3.535s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.758s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.759s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.576s] -- Configuring done
+[5.586s] -- Generating done
+[5.590s] -- Build files have been written to: /home/husarion/ros2_ws/build/ros_components_description

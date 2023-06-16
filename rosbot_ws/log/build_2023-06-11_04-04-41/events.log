@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.001633] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict()}
+[0.002352] (ros_components_description) JobQueued: {'identifier': 'ros_components_description', 'dependencies': OrderedDict()}
+[0.002802] (rosbot_hardware_interfaces) JobQueued: {'identifier': 'rosbot_hardware_interfaces', 'dependencies': OrderedDict()}
+[0.005615] (rosbot_description) JobQueued: {'identifier': 'rosbot_description', 'dependencies': OrderedDict([('ros_components_description', '/home/husarion/rosbot_ws/install/ros_components_description')])}
+[0.005853] (rosbot_controller) JobQueued: {'identifier': 'rosbot_controller', 'dependencies': OrderedDict([('ros_components_description', '/home/husarion/rosbot_ws/install/ros_components_description'), ('rosbot_hardware_interfaces', '/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces'), ('rosbot_description', '/home/husarion/rosbot_ws/install/rosbot_description')])}
+[0.006101] (rosbot_bringup) JobQueued: {'identifier': 'rosbot_bringup', 'dependencies': OrderedDict([('ros_components_description', '/home/husarion/rosbot_ws/install/ros_components_description'), ('rosbot_hardware_interfaces', '/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces'), ('rosbot_description', '/home/husarion/rosbot_ws/install/rosbot_description'), ('rosbot_controller', '/home/husarion/rosbot_ws/install/rosbot_controller')])}
+[0.009260] (rosbot) JobQueued: {'identifier': 'rosbot', 'dependencies': OrderedDict([('ros_components_description', '/home/husarion/rosbot_ws/install/ros_components_description'), ('rosbot_hardware_interfaces', '/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces'), ('rosbot_description', '/home/husarion/rosbot_ws/install/rosbot_description'), ('rosbot_controller', '/home/husarion/rosbot_ws/install/rosbot_controller'), ('rosbot_bringup', '/home/husarion/rosbot_ws/install/rosbot_bringup')])}
+[0.009980] (ros_components_description) JobStarted: {'identifier': 'ros_components_description'}
+[0.095824] (-) TimerEvent: {}
+[0.100440] (rosbot_hardware_interfaces) JobStarted: {'identifier': 'rosbot_hardware_interfaces'}
+[0.180016] (mecanum_drive_controller) JobStarted: {'identifier': 'mecanum_drive_controller'}
+[0.197490] (-) TimerEvent: {}
+[0.284319] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'cmake'}
+[0.286096] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '/home/husarion/rosbot_ws/src/ros_components_description', '-DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/ros_components_description'], 'cwd': '/home/husarion/rosbot_ws/build/ros_components_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 64522 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs/lib:/home/husarion/microros_ws/install/micro_ros_agent/lib:/home/husarion/microros_ws/install/micro_ros_msgs/lib:/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/micro_ws/install:/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '17'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs:/home/husarion/micro_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_agent:/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/rosbot_ws/build/ros_components_description'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 64522 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/micro_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/husarion/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs:/home/husarion/micro_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_agent:/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[0.300086] (-) TimerEvent: {}
+[0.319504] (rosbot_hardware_interfaces) JobProgress: {'identifier': 'rosbot_hardware_interfaces', 'progress': 'cmake'}
+[0.322193] (rosbot_hardware_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/husarion/rosbot_ws/src/rosbot_hardware_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces'], 'cwd': '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 64522 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs/lib:/home/husarion/microros_ws/install/micro_ros_agent/lib:/home/husarion/microros_ws/install/micro_ros_msgs/lib:/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/micro_ws/install:/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '17'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs:/home/husarion/micro_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_agent:/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 64522 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/micro_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/husarion/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs:/home/husarion/micro_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_agent:/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[0.353735] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'cmake'}
+[0.355164] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/husarion/rosbot_ws/src/rosbot_controllers/mecanum_drive_controller', '-DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/mecanum_drive_controller'], 'cwd': '/home/husarion/rosbot_ws/build/mecanum_drive_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 64522 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs/lib:/home/husarion/microros_ws/install/micro_ros_agent/lib:/home/husarion/microros_ws/install/micro_ros_msgs/lib:/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/micro_ws/install:/home/husarion/microros_ws/install:/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '17'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs:/home/husarion/micro_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_agent:/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/rosbot_ws/build/mecanum_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 64522 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/micro_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/husarion/microros_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/micro_ws/install/micro_ros_msgs:/home/husarion/micro_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_setup:/home/husarion/microros_ws/install/micro_ros_agent:/home/husarion/microros_ws/install/micro_ros_msgs:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[0.400393] (-) TimerEvent: {}
+[0.501617] (-) TimerEvent: {}
+[0.602579] (-) TimerEvent: {}
+[0.671401] (ros_components_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.673202] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.695312] (mecanum_drive_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.702775] (-) TimerEvent: {}
+[0.804221] (-) TimerEvent: {}
+[0.905675] (-) TimerEvent: {}
+[1.006620] (-) TimerEvent: {}
+[1.011688] (ros_components_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.019702] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.022529] (mecanum_drive_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.043809] (ros_components_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.052112] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.054575] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.106844] (-) TimerEvent: {}
+[1.207776] (-) TimerEvent: {}
+[1.309426] (-) TimerEvent: {}
+[1.410462] (-) TimerEvent: {}
+[1.431373] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.438126] (ros_components_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.439408] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.445006] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.451916] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.457511] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.510722] (-) TimerEvent: {}
+[1.611825] (-) TimerEvent: {}
+[1.712887] (-) TimerEvent: {}
+[1.813907] (-) TimerEvent: {}
+[1.833967] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.839023] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.878321] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.910934] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.913091] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.914021] (-) TimerEvent: {}
+[1.916607] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.918468] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.928792] (ros_components_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.932822] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.963632] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.965734] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.981525] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.014298] (-) TimerEvent: {}
+[2.115281] (-) TimerEvent: {}
+[2.216771] (-) TimerEvent: {}
+[2.318199] (-) TimerEvent: {}
+[2.368586] (ros_components_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.373670] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.374869] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.379204] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.422767] (-) TimerEvent: {}
+[2.439887] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.444547] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.523005] (-) TimerEvent: {}
+[2.623968] (-) TimerEvent: {}
+[2.725553] (-) TimerEvent: {}
+[2.826525] (-) TimerEvent: {}
+[2.856971] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.866396] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.880832] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.926704] (-) TimerEvent: {}
+[2.936995] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.940121] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.944437] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.947339] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.957634] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.958667] (ros_components_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.960612] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.966230] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.979550] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.026915] (-) TimerEvent: {}
+[3.127812] (-) TimerEvent: {}
+[3.166647] (ros_components_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.167680] (ros_components_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.186457] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.187488] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.192937] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.193965] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.228017] (-) TimerEvent: {}
+[3.328923] (-) TimerEvent: {}
+[3.429795] (-) TimerEvent: {}
+[3.530691] (-) TimerEvent: {}
+[3.631556] (-) TimerEvent: {}
+[3.732473] (-) TimerEvent: {}
+[3.833326] (-) TimerEvent: {}
+[3.934185] (-) TimerEvent: {}
+[4.035047] (-) TimerEvent: {}
+[4.135902] (-) TimerEvent: {}
+[4.236841] (-) TimerEvent: {}
+[4.337734] (-) TimerEvent: {}
+[4.438638] (-) TimerEvent: {}
+[4.535587] (mecanum_drive_controller) StderrLine: {'line': b'CMake Error at CMakeLists.txt:32 (find_package):\n'}
+[4.536972] (mecanum_drive_controller) StderrLine: {'line': b'  By not providing "Findcontroller_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.537535] (mecanum_drive_controller) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.538012] (mecanum_drive_controller) StderrLine: {'line': b'  "controller_interface", but CMake did not find one.\n'}
+[4.538468] (mecanum_drive_controller) StderrLine: {'line': b'\n'}
+[4.538896] (-) TimerEvent: {}
+[4.539471] (mecanum_drive_controller) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[4.540380] (mecanum_drive_controller) StderrLine: {'line': b'  "controller_interface" with any of the following names:\n'}
+[4.540906] (mecanum_drive_controller) StderrLine: {'line': b'\n'}
+[4.541368] (mecanum_drive_controller) StderrLine: {'line': b'    controller_interfaceConfig.cmake\n'}
+[4.541819] (mecanum_drive_controller) StderrLine: {'line': b'    controller_interface-config.cmake\n'}
+[4.542330] (mecanum_drive_controller) StderrLine: {'line': b'\n'}
+[4.542792] (mecanum_drive_controller) StderrLine: {'line': b'  Add the installation prefix of "controller_interface" to CMAKE_PREFIX_PATH\n'}
+[4.543249] (mecanum_drive_controller) StderrLine: {'line': b'  or set "controller_interface_DIR" to a directory containing one of the\n'}
+[4.543701] (mecanum_drive_controller) StderrLine: {'line': b'  above files.  If "controller_interface" provides a separate development\n'}
+[4.544224] (mecanum_drive_controller) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[4.544708] (mecanum_drive_controller) StderrLine: {'line': b'\n'}
+[4.545158] (mecanum_drive_controller) StderrLine: {'line': b'\n'}
+[4.545620] (mecanum_drive_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.546105] (mecanum_drive_controller) StdoutLine: {'line': b'See also "/home/husarion/rosbot_ws/build/mecanum_drive_controller/CMakeFiles/CMakeOutput.log".\n'}
+[4.563674] (mecanum_drive_controller) CommandEnded: {'returncode': 1}
+[4.653638] (-) TimerEvent: {}
+[4.709976] (rosbot_hardware_interfaces) StderrLine: {'line': b'CMake Error at CMakeLists.txt:15 (find_package):\n'}
+[4.711243] (rosbot_hardware_interfaces) StderrLine: {'line': b'  By not providing "Findcontroller_interface.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.714040] (rosbot_hardware_interfaces) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.714995] (rosbot_hardware_interfaces) StderrLine: {'line': b'  "controller_interface", but CMake did not find one.\n'}
+[4.716376] (rosbot_hardware_interfaces) StderrLine: {'line': b'\n'}
+[4.717595] (rosbot_hardware_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[4.719277] (rosbot_hardware_interfaces) StderrLine: {'line': b'  "controller_interface" with any of the following names:\n'}
+[4.720182] (rosbot_hardware_interfaces) StderrLine: {'line': b'\n'}
+[4.720840] (rosbot_hardware_interfaces) StderrLine: {'line': b'    controller_interfaceConfig.cmake\n'}
+[4.734174] (rosbot_hardware_interfaces) StderrLine: {'line': b'    controller_interface-config.cmake\n'}
+[4.735028] (rosbot_hardware_interfaces) StderrLine: {'line': b'\n'}
+[4.737725] (rosbot_hardware_interfaces) StderrLine: {'line': b'  Add the installation prefix of "controller_interface" to CMAKE_PREFIX_PATH\n'}
+[4.738430] (rosbot_hardware_interfaces) StderrLine: {'line': b'  or set "controller_interface_DIR" to a directory containing one of the\n'}
+[4.739160] (rosbot_hardware_interfaces) StderrLine: {'line': b'  above files.  If "controller_interface" provides a separate development\n'}
+[4.741930] (rosbot_hardware_interfaces) StderrLine: {'line': b'  package or SDK, be sure it has been installed.\n'}
+[4.743623] (rosbot_hardware_interfaces) StderrLine: {'line': b'\n'}
+[4.744743] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.757614] (-) TimerEvent: {}
+[4.759472] (rosbot_hardware_interfaces) StdoutLine: {'line': b'See also "/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[4.761236] (rosbot_hardware_interfaces) StderrLine: {'line': b'\n'}
+[4.806513] (mecanum_drive_controller) JobEnded: {'identifier': 'mecanum_drive_controller', 'rc': 1}
+[4.815828] (rosbot_hardware_interfaces) JobEnded: {'identifier': 'rosbot_hardware_interfaces', 'rc': 'SIGINT'}
+[4.857924] (-) TimerEvent: {}
+[4.959307] (-) TimerEvent: {}
+[5.053774] (ros_components_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.059535] (-) TimerEvent: {}
+[5.063468] (ros_components_description) StdoutLine: {'line': b'-- Generating done\n'}
+[5.068235] (ros_components_description) StdoutLine: {'line': b'-- Build files have been written to: /home/husarion/rosbot_ws/build/ros_components_description\n'}
+[5.082063] (ros_components_description) JobEnded: {'identifier': 'ros_components_description', 'rc': 'SIGINT'}
+[5.094466] (rosbot_description) JobSkipped: {'identifier': 'rosbot_description'}
+[5.095146] (rosbot_controller) JobSkipped: {'identifier': 'rosbot_controller'}
+[5.095497] (rosbot_bringup) JobSkipped: {'identifier': 'rosbot_bringup'}
+[5.095711] (rosbot) JobSkipped: {'identifier': 'rosbot'}
+[5.095904] (-) EventReactorShutdown: {}

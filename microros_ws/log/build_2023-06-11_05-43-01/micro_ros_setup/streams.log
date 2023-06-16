@@ -1,0 +1,213 @@
+[0.118s] Invoking command in '/home/husarion/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/husarion/microros_ws/install/micro_ros_setup
+[0.744s] -- The C compiler identification is GNU 9.4.0
+[1.415s] -- The CXX compiler identification is GNU 9.4.0
+[1.483s] -- Check for working C compiler: /usr/bin/cc
+[1.912s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.950s] -- Detecting C compiler ABI info
+[2.399s] -- Detecting C compiler ABI info - done
+[2.508s] -- Detecting C compile features
+[2.514s] -- Detecting C compile features - done
+[2.535s] -- Check for working CXX compiler: /usr/bin/c++
+[3.005s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.014s] -- Detecting CXX compiler ABI info
+[3.514s] -- Detecting CXX compiler ABI info - done
+[3.590s] -- Detecting CXX compile features
+[3.593s] -- Detecting CXX compile features - done
+[3.642s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.868s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.870s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.260s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.811s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.919s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.934s] -- Added test 'lint_cmake' to check CMake code style
+[5.944s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[6.002s] -- Added test 'xmllint' to check XML markup files
+[6.016s] -- Configuring done
+[6.027s] -- Generating done
+[6.032s] -- Build files have been written to: /home/husarion/microros_ws/build/micro_ros_setup
+[6.052s] Invoked command in '/home/husarion/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/husarion/microros_ws/install/micro_ros_setup
+[6.068s] Invoking command in '/home/husarion/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake --build /home/husarion/microros_ws/build/micro_ros_setup -- -j4 -l4
+[6.298s] Invoked command in '/home/husarion/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake --build /home/husarion/microros_ws/build/micro_ros_setup -- -j4 -l4
+[6.490s] Invoking command in '/home/husarion/microros_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake --install /home/husarion/microros_ws/build/micro_ros_setup
+[6.543s] -- Install configuration: ""
+[6.545s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[6.546s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[6.547s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[6.549s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[6.550s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[6.552s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[6.553s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[6.554s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[6.556s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[6.556s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[6.557s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[6.557s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[6.558s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[6.559s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[6.561s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[6.561s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config
+[6.562s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[6.562s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[6.563s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/utils.sh
+[6.564s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android
+[6.564s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[6.565s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[6.566s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic
+[6.566s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[6.567s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[6.567s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[6.568s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[6.569s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[6.569s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[6.570s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed
+[6.570s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[6.571s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[6.571s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/list_apps.sh
+[6.572s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic
+[6.573s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[6.573s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/package.xml
+[6.574s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[6.574s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/build.sh
+[6.575s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/board.repos
+[6.576s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/create.sh
+[6.576s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[6.577s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[6.577s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr
+[6.578s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[6.579s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[6.579s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[6.580s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic
+[6.580s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[6.581s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[6.581s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[6.582s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[6.583s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[6.583s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[6.584s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[6.585s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[6.585s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[6.586s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host
+[6.586s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[6.587s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[6.587s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[6.588s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic
+[6.589s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[6.589s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[6.590s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[6.590s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[6.591s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[6.592s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[6.592s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos
+[6.593s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[6.593s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[6.594s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[6.594s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[6.595s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[6.596s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[6.596s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[6.597s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[6.597s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[6.598s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[6.599s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[6.599s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[6.600s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[6.600s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[6.601s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[6.601s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[6.602s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[6.603s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[6.604s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[6.604s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[6.605s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[6.606s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[6.606s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[6.607s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[6.608s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[6.608s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[6.609s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[6.610s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[6.610s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[6.611s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[6.612s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[6.612s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[6.613s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[6.614s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[6.614s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[6.615s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[6.616s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[6.616s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[6.617s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[6.618s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[6.619s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[6.619s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[6.620s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[6.621s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[6.622s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[6.623s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[6.623s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[6.624s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[6.624s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[6.625s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[6.625s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[6.626s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[6.627s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[6.628s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[6.628s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[6.628s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[6.629s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32
+[6.629s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[6.630s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[6.630s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[6.631s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[6.631s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[6.633s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[6.635s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[6.636s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[6.640s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[6.641s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[6.642s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra
+[6.643s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[6.644s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[6.644s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[6.645s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[6.646s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[6.646s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[6.647s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[6.648s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[6.649s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[6.650s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[6.650s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[6.651s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian
+[6.652s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[6.653s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[6.654s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic
+[6.654s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[6.655s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[6.655s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[6.656s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[6.656s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[6.656s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[6.657s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[6.657s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[6.658s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib
+[6.658s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[6.659s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[6.660s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic
+[6.660s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[6.661s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[6.661s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[6.661s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[6.667s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[6.672s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[6.673s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[6.674s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[6.675s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[6.675s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[6.676s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[6.677s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[6.678s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[6.679s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[6.680s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[6.681s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[6.682s] -- Installing: /home/husarion/microros_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[6.683s] Invoked command in '/home/husarion/microros_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake --install /home/husarion/microros_ws/build/micro_ros_setup

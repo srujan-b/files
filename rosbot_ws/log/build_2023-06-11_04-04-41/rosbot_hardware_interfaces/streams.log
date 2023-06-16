@@ -1,0 +1,37 @@
+[0.229s] Invoking command in '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces
+[0.568s] -- The C compiler identification is GNU 9.4.0
+[0.914s] -- The CXX compiler identification is GNU 9.4.0
+[0.949s] -- Check for working C compiler: /usr/bin/cc
+[1.347s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.352s] -- Detecting C compiler ABI info
+[1.773s] -- Detecting C compiler ABI info - done
+[1.859s] -- Detecting C compile features
+[1.860s] -- Detecting C compile features - done
+[1.876s] -- Check for working CXX compiler: /usr/bin/c++
+[2.335s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.339s] -- Detecting CXX compiler ABI info
+[2.776s] -- Detecting CXX compiler ABI info - done
+[2.852s] -- Detecting CXX compile features
+[2.855s] -- Detecting CXX compile features - done
+[2.874s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.088s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.089s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.605s] CMake Error at CMakeLists.txt:15 (find_package):
+[4.608s]   By not providing "Findcontroller_interface.cmake" in CMAKE_MODULE_PATH this
+[4.609s]   project has asked CMake to find a package configuration file provided by
+[4.610s]   "controller_interface", but CMake did not find one.
+[4.612s] 
+[4.613s]   Could not find a package configuration file provided by
+[4.614s]   "controller_interface" with any of the following names:
+[4.615s] 
+[4.628s]     controller_interfaceConfig.cmake
+[4.629s]     controller_interface-config.cmake
+[4.632s] 
+[4.633s]   Add the installation prefix of "controller_interface" to CMAKE_PREFIX_PATH
+[4.633s]   or set "controller_interface_DIR" to a directory containing one of the
+[4.636s]   above files.  If "controller_interface" provides a separate development
+[4.637s]   package or SDK, be sure it has been installed.
+[4.638s] 
+[4.651s] -- Configuring incomplete, errors occurred!
+[4.655s] See also "/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces/CMakeFiles/CMakeOutput.log".
+[4.657s] 

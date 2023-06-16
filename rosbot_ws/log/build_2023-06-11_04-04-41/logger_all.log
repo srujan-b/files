@@ -1,0 +1,272 @@
+[1.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.070s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2c98b6a3a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2c98b6a3a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2c98b6a8e0>)
+[1.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.251s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/husarion/rosbot_ws'
+[1.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.319s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.320s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.321s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.322s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.323s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.324s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extensions ['ignore', 'ignore_ament_install']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'ignore'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'ignore_ament_install'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extensions ['colcon_pkg']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'colcon_pkg'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extensions ['colcon_meta']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'colcon_meta'
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extensions ['ros']
+[1.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_components_description) by extension 'ros'
+[1.498s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_components_description' with type 'ros.ament_cmake' and name 'ros_components_description'
+[1.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extensions ['ignore', 'ignore_ament_install']
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extension 'ignore'
+[1.499s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extension 'ignore_ament_install'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extensions ['colcon_pkg']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extension 'colcon_pkg'
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extensions ['colcon_meta']
+[1.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extension 'colcon_meta'
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extensions ['ros']
+[1.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot) by extension 'ros'
+[1.564s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot' with type 'ros.ament_cmake' and name 'rosbot'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'ignore'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'ignore_ament_install'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extensions ['colcon_pkg']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'colcon_pkg'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extensions ['colcon_meta']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'colcon_meta'
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extensions ['ros']
+[1.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'ros'
+[1.573s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_bringup' with type 'ros.ament_cmake' and name 'rosbot_bringup'
+[1.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extension 'ignore'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extension 'ignore_ament_install'
+[1.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extensions ['colcon_pkg']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extension 'colcon_pkg'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extensions ['colcon_meta']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extension 'colcon_meta'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extensions ['ros']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controller) by extension 'ros'
+[1.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_controller' with type 'ros.ament_cmake' and name 'rosbot_controller'
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extensions ['ignore', 'ignore_ament_install']
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extension 'ignore'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extension 'ignore_ament_install'
+[1.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extensions ['colcon_pkg']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extension 'colcon_pkg'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extensions ['colcon_meta']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extension 'colcon_meta'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extensions ['ros']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extension 'ros'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extensions ['cmake', 'python']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extension 'cmake'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extension 'python'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extensions ['python_setup_py']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers) by extension 'python_setup_py'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extension 'ignore'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extension 'ignore_ament_install'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extensions ['colcon_pkg']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extension 'colcon_pkg'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extensions ['colcon_meta']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extension 'colcon_meta'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extensions ['ros']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_controllers/mecanum_drive_controller) by extension 'ros'
+[1.597s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_controllers/mecanum_drive_controller' with type 'ros.ament_cmake' and name 'mecanum_drive_controller'
+[1.597s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'ignore'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'ignore_ament_install'
+[1.598s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extensions ['colcon_pkg']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'colcon_pkg'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extensions ['colcon_meta']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'colcon_meta'
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extensions ['ros']
+[1.599s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'ros'
+[1.603s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_description' with type 'ros.ament_cmake' and name 'rosbot_description'
+[1.604s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extension 'ignore'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extension 'ignore_ament_install'
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extensions ['colcon_pkg']
+[1.605s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extension 'colcon_pkg'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extensions ['colcon_meta']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extension 'colcon_meta'
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extensions ['ros']
+[1.606s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_hardware_interfaces) by extension 'ros'
+[1.614s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_hardware_interfaces' with type 'ros.ament_cmake' and name 'rosbot_hardware_interfaces'
+[1.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.614s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.615s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.760s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/husarion/micro_ws/install
+[1.767s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/husarion/microros_ws/install
+[1.775s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/husarion/ROS2swarm/install
+[1.782s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/husarion/husarion_ws/install
+[1.828s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 296 installed packages in /opt/ros/foxy
+[1.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.402s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_args' from command line to 'None'
+[2.402s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_target' from command line to 'None'
+[2.403s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.403s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.403s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.403s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.403s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.403s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.404s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.404s] DEBUG:colcon.colcon_core.verb:Building package 'mecanum_drive_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/rosbot_ws/build/mecanum_drive_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/rosbot_ws/install/mecanum_drive_controller', 'merge_install': False, 'path': '/home/husarion/rosbot_ws/src/rosbot_controllers/mecanum_drive_controller', 'symlink_install': False, 'test_result_base': None}
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_args' from command line to 'None'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_target' from command line to 'None'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.411s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.412s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.412s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.412s] Level 5:colcon.colcon_core.verb:set package 'ros_components_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.412s] DEBUG:colcon.colcon_core.verb:Building package 'ros_components_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/rosbot_ws/build/ros_components_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/rosbot_ws/install/ros_components_description', 'merge_install': False, 'path': '/home/husarion/rosbot_ws/src/ros_components_description', 'symlink_install': False, 'test_result_base': None}
+[2.419s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.419s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.419s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.419s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.420s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.420s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.420s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.420s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.420s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.420s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_hardware_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces', 'merge_install': False, 'path': '/home/husarion/rosbot_ws/src/rosbot_hardware_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.427s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_args' from command line to 'None'
+[2.427s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_target' from command line to 'None'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.428s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.429s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.429s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/rosbot_ws/build/rosbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/rosbot_ws/install/rosbot_description', 'merge_install': False, 'path': '/home/husarion/rosbot_ws/src/rosbot_description', 'symlink_install': False, 'test_result_base': None}
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_args' from command line to 'None'
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_target' from command line to 'None'
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.437s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/rosbot_ws/build/rosbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/rosbot_ws/install/rosbot_controller', 'merge_install': False, 'path': '/home/husarion/rosbot_ws/src/rosbot_controller', 'symlink_install': False, 'test_result_base': None}
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_args' from command line to 'None'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_target' from command line to 'None'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.446s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/rosbot_ws/build/rosbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/rosbot_ws/install/rosbot_bringup', 'merge_install': False, 'path': '/home/husarion/rosbot_ws/src/rosbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_args' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_target' from command line to 'None'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_clean_first' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_force_configure' from command line to 'False'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'ament_cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.454s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/rosbot_ws/build/rosbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/rosbot_ws/install/rosbot', 'merge_install': False, 'path': '/home/husarion/rosbot_ws/src/rosbot', 'symlink_install': False, 'test_result_base': None}
+[2.459s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.487s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.488s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/husarion/rosbot_ws/src/ros_components_description' with build type 'ament_cmake'
+[2.489s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/husarion/rosbot_ws/src/ros_components_description'
+[2.521s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/husarion/rosbot_ws/src/rosbot_hardware_interfaces' with build type 'ament_cmake'
+[2.590s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/husarion/rosbot_ws/src/rosbot_hardware_interfaces'
+[2.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.670s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/husarion/rosbot_ws/src/rosbot_controllers/mecanum_drive_controller' with build type 'ament_cmake'
+[2.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/husarion/rosbot_ws/src/rosbot_controllers/mecanum_drive_controller'
+[2.684s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.685s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.783s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/rosbot_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/ros_components_description -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/ros_components_description
+[2.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces
+[2.858s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/rosbot_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/mecanum_drive_controller
+[7.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/rosbot_ws/build/mecanum_drive_controller' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/mecanum_drive_controller
+[7.120s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mecanum_drive_controller)
+[7.183s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/rosbot_ws/install/mecanum_drive_controller' for CMake module files
+[7.187s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/rosbot_ws/install/mecanum_drive_controller' for CMake config files
+[7.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_drive_controller', 'cmake_prefix_path')
+[7.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.ps1'
+[7.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.dsv'
+[7.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/cmake_prefix_path.sh'
+[7.233s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/rosbot_ws/install/mecanum_drive_controller/lib'
+[7.235s] Level 1:colcon.colcon_core.shell:create_environment_hook('mecanum_drive_controller', 'ld_library_path_lib')
+[7.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.ps1'
+[7.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.dsv'
+[7.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/hook/ld_library_path_lib.sh'
+[7.258s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/rosbot_ws/install/mecanum_drive_controller/bin'
+[7.259s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/rosbot_ws/install/mecanum_drive_controller/lib/pkgconfig/mecanum_drive_controller.pc'
+[7.260s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/rosbot_ws/install/mecanum_drive_controller/lib/python3.8/site-packages'
+[7.261s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/rosbot_ws/install/mecanum_drive_controller/bin'
+[7.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.ps1'
+[7.277s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv'
+[7.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.sh'
+[7.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.bash'
+[7.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.zsh'
+[7.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/rosbot_ws/install/mecanum_drive_controller/share/colcon-core/packages/mecanum_drive_controller)
+[7.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.583s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.584s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[7.584s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.625s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.626s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.626s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.660s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.676s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/husarion/rosbot_ws/install/local_setup.ps1'
+[7.681s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/husarion/rosbot_ws/install/_local_setup_util_ps1.py'
+[7.688s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/husarion/rosbot_ws/install/setup.ps1'
+[7.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/husarion/rosbot_ws/install/local_setup.sh'
+[7.705s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/husarion/rosbot_ws/install/_local_setup_util_sh.py'
+[7.708s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/husarion/rosbot_ws/install/setup.sh'
+[7.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/husarion/rosbot_ws/install/local_setup.bash'
+[7.723s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/husarion/rosbot_ws/install/setup.bash'
+[7.735s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/husarion/rosbot_ws/install/local_setup.zsh'
+[7.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/husarion/rosbot_ws/install/setup.zsh'

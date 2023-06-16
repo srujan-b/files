@@ -1,0 +1,30 @@
+[0.242s] Invoking command in '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces
+[0.335s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.541s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.848s] -- Found controller_interface: 0.11.0 (/opt/ros/foxy/share/controller_interface/cmake)
+[2.005s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.028s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.035s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.049s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.747s] CMake Error at CMakeLists.txt:21 (find_package):
+[7.748s]   By not providing "Findrealtime_tools.cmake" in CMAKE_MODULE_PATH this
+[7.748s]   project has asked CMake to find a package configuration file provided by
+[7.749s]   "realtime_tools", but CMake did not find one.
+[7.749s] 
+[7.750s]   Could not find a package configuration file provided by "realtime_tools"
+[7.750s]   with any of the following names:
+[7.751s] 
+[7.751s]     realtime_toolsConfig.cmake
+[7.752s]     realtime_tools-config.cmake
+[7.753s] 
+[7.753s]   Add the installation prefix of "realtime_tools" to CMAKE_PREFIX_PATH or set
+[7.754s]   "realtime_tools_DIR" to a directory containing one of the above files.  If
+[7.754s]   "realtime_tools" provides a separate development package or SDK, be sure it
+[7.755s]   has been installed.
+[7.755s] 
+[7.757s] 
+[7.757s] -- Configuring incomplete, errors occurred!
+[7.758s] See also "/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces/CMakeFiles/CMakeOutput.log".
+[7.758s] See also "/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces/CMakeFiles/CMakeError.log".
+[7.794s] Invoked command in '/home/husarion/rosbot_ws/build/rosbot_hardware_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/rosbot_hardware_interfaces

@@ -1,0 +1,30 @@
+[0.183s] Invoking command in '/home/husarion/rosbot_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/rosbot_controllers/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/mecanum_drive_controller
+[0.269s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.821s] -- Found controller_interface: 0.11.0 (/opt/ros/foxy/share/controller_interface/cmake)
+[1.970s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.994s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.222s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.236s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.980s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[8.556s] CMake Error at CMakeLists.txt:32 (find_package):
+[8.558s]   By not providing "Findrealtime_tools.cmake" in CMAKE_MODULE_PATH this
+[8.559s]   project has asked CMake to find a package configuration file provided by
+[8.560s]   "realtime_tools", but CMake did not find one.
+[8.561s] 
+[8.562s]   Could not find a package configuration file provided by "realtime_tools"
+[8.562s]   with any of the following names:
+[8.563s] 
+[8.564s]     realtime_toolsConfig.cmake
+[8.565s]     realtime_tools-config.cmake
+[8.565s] 
+[8.567s]   Add the installation prefix of "realtime_tools" to CMAKE_PREFIX_PATH or set
+[8.568s]   "realtime_tools_DIR" to a directory containing one of the above files.  If
+[8.568s]   "realtime_tools" provides a separate development package or SDK, be sure it
+[8.569s]   has been installed.
+[8.570s] 
+[8.571s] 
+[8.571s] -- Configuring incomplete, errors occurred!
+[8.572s] See also "/home/husarion/rosbot_ws/build/mecanum_drive_controller/CMakeFiles/CMakeOutput.log".
+[8.572s] See also "/home/husarion/rosbot_ws/build/mecanum_drive_controller/CMakeFiles/CMakeError.log".

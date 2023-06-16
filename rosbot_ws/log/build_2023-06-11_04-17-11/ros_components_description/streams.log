@@ -1,0 +1,58 @@
+[0.288s] Invoking command in '/home/husarion/rosbot_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/ros_components_description -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/ros_components_description
+[0.629s] -- The C compiler identification is GNU 9.4.0
+[0.961s] -- The CXX compiler identification is GNU 9.4.0
+[0.993s] -- Check for working C compiler: /usr/bin/cc
+[1.395s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.408s] -- Detecting C compiler ABI info
+[1.836s] -- Detecting C compiler ABI info - done
+[1.913s] -- Detecting C compile features
+[1.915s] -- Detecting C compile features - done
+[1.929s] -- Check for working CXX compiler: /usr/bin/c++
+[2.381s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.387s] -- Detecting CXX compiler ABI info
+[2.828s] -- Detecting CXX compiler ABI info - done
+[2.909s] -- Detecting CXX compile features
+[2.913s] -- Detecting CXX compile features - done
+[2.931s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.151s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.152s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.926s] -- Configuring done
+[4.937s] -- Generating done
+[4.941s] -- Build files have been written to: /home/husarion/rosbot_ws/build/ros_components_description
+[4.957s] Invoked command in '/home/husarion/rosbot_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake /home/husarion/rosbot_ws/src/ros_components_description -DCMAKE_INSTALL_PREFIX=/home/husarion/rosbot_ws/install/ros_components_description
+[4.972s] Invoking command in '/home/husarion/rosbot_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake --build /home/husarion/rosbot_ws/build/ros_components_description -- -j4 -l4
+[5.186s] Invoked command in '/home/husarion/rosbot_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake --build /home/husarion/rosbot_ws/build/ros_components_description -- -j4 -l4
+[5.374s] Invoking command in '/home/husarion/rosbot_ws/build/ros_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake --install /home/husarion/rosbot_ws/build/ros_components_description
+[5.424s] -- Install configuration: ""
+[5.425s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/meshes
+[5.425s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_a2m8.dae
+[5.450s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s1.dae
+[5.454s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/meshes/velodyne_puck.dae
+[5.457s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/meshes/ouster_os1_32.dae
+[5.462s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/meshes/orbbec_astra.dae
+[5.467s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/meshes/intel_realsense_d435.dae
+[5.473s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_ax.dae
+[5.477s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/urdf
+[5.478s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/urdf/intel_realsense_d435.urdf.xacro
+[5.479s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a3.urdf.xacro
+[5.480s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s1.urdf.xacro
+[5.481s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a2.urdf.xacro
+[5.483s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/urdf/velodyne_puck.urdf.xacro
+[5.484s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/urdf/orbbec_astra.urdf.xacro
+[5.486s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/urdf/ouster_os1_32.urdf.xacro
+[5.488s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ament_index/resource_index/package_run_dependencies/ros_components_description
+[5.489s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ament_index/resource_index/parent_prefix_path/ros_components_description
+[5.490s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.sh
+[5.491s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.dsv
+[5.492s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/environment/path.sh
+[5.493s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/environment/path.dsv
+[5.494s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/local_setup.bash
+[5.495s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/local_setup.sh
+[5.496s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/local_setup.zsh
+[5.497s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/local_setup.dsv
+[5.498s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/package.dsv
+[5.499s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ament_index/resource_index/packages/ros_components_description
+[5.500s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig.cmake
+[5.501s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig-version.cmake
+[5.502s] -- Installing: /home/husarion/rosbot_ws/install/ros_components_description/share/ros_components_description/package.xml
+[5.513s] Invoked command in '/home/husarion/rosbot_ws/build/ros_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy /usr/bin/cmake --install /home/husarion/rosbot_ws/build/ros_components_description

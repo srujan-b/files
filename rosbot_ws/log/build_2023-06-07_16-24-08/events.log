@@ -1,0 +1,830 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict()}
+[0.000181] (ros_components_description) JobQueued: {'identifier': 'ros_components_description', 'dependencies': OrderedDict()}
+[0.000216] (rosbot_hardware_interfaces) JobQueued: {'identifier': 'rosbot_hardware_interfaces', 'dependencies': OrderedDict()}
+[0.000248] (rosbot_description) JobQueued: {'identifier': 'rosbot_description', 'dependencies': OrderedDict([('ros_components_description', '/ros2_ws/install/ros_components_description')])}
+[0.000285] (rosbot_controller) JobQueued: {'identifier': 'rosbot_controller', 'dependencies': OrderedDict([('ros_components_description', '/ros2_ws/install/ros_components_description'), ('rosbot_hardware_interfaces', '/ros2_ws/install/rosbot_hardware_interfaces'), ('rosbot_description', '/ros2_ws/install/rosbot_description')])}
+[0.000323] (rosbot_bringup) JobQueued: {'identifier': 'rosbot_bringup', 'dependencies': OrderedDict([('ros_components_description', '/ros2_ws/install/ros_components_description'), ('rosbot_hardware_interfaces', '/ros2_ws/install/rosbot_hardware_interfaces'), ('rosbot_description', '/ros2_ws/install/rosbot_description'), ('rosbot_controller', '/ros2_ws/install/rosbot_controller')])}
+[0.000384] (rosbot) JobQueued: {'identifier': 'rosbot', 'dependencies': OrderedDict([('ros_components_description', '/ros2_ws/install/ros_components_description'), ('rosbot_hardware_interfaces', '/ros2_ws/install/rosbot_hardware_interfaces'), ('rosbot_description', '/ros2_ws/install/rosbot_description'), ('rosbot_controller', '/ros2_ws/install/rosbot_controller'), ('rosbot_bringup', '/ros2_ws/install/rosbot_bringup')])}
+[0.000427] (ros_components_description) JobStarted: {'identifier': 'ros_components_description'}
+[0.014399] (rosbot_hardware_interfaces) JobStarted: {'identifier': 'rosbot_hardware_interfaces'}
+[0.022505] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'cmake'}
+[0.023021] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/ros_components_description', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/ros_components_description'], 'cwd': '/ros2_ws/build/ros_components_description', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/ros_components_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.030415] (rosbot_hardware_interfaces) JobProgress: {'identifier': 'rosbot_hardware_interfaces', 'progress': 'cmake'}
+[0.030772] (rosbot_hardware_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/rosbot_hardware_interfaces', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosbot_hardware_interfaces'], 'cwd': '/ros2_ws/build/rosbot_hardware_interfaces', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_hardware_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097843] (-) TimerEvent: {}
+[0.113017] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.113276] (ros_components_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.183891] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.193553] (ros_components_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.194962] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.197912] (-) TimerEvent: {}
+[0.204550] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.289297] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.298291] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.298481] (-) TimerEvent: {}
+[0.299113] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.305172] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.305370] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.305476] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.311110] (ros_components_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.311906] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.313108] (ros_components_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.318012] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.398652] (-) TimerEvent: {}
+[0.425304] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.428469] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.430234] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.430967] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.431941] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.436077] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.439843] (ros_components_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.440733] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.442038] (ros_components_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.445465] (ros_components_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500993] (-) TimerEvent: {}
+[0.601225] (-) TimerEvent: {}
+[0.659845] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.660076] (ros_components_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.701346] (-) TimerEvent: {}
+[0.783435] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found controller_interface: 2.26.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.801457] (-) TimerEvent: {}
+[0.842218] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.849677] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.862596] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.884083] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901653] (-) TimerEvent: {}
+[0.911496] (ros_components_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.915111] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.917126] (ros_components_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.919242] (ros_components_description) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/ros_components_description\n'}
+[0.931101] (ros_components_description) CommandEnded: {'returncode': 0}
+[0.931592] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'build'}
+[0.931631] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/ros_components_description', '--', '-j2', '-l2'], 'cwd': '/ros2_ws/build/ros_components_description', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/ros_components_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.981277] (ros_components_description) CommandEnded: {'returncode': 0}
+[1.001750] (-) TimerEvent: {}
+[1.009353] (ros_components_description) JobProgress: {'identifier': 'ros_components_description', 'progress': 'install'}
+[1.022558] (ros_components_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/ros_components_description'], 'cwd': '/ros2_ws/build/ros_components_description', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/ros_components_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.034287] (ros_components_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.034830] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/meshes\n'}
+[1.035737] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_s1.dae\n'}
+[1.036615] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/meshes/intel_realsense_d435.dae\n'}
+[1.037957] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/meshes/ouster_os1_32.dae\n'}
+[1.038969] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_a2m8.dae\n'}
+[1.039801] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/meshes/slamtec_rplidar_ax.dae\n'}
+[1.040549] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/meshes/orbbec_astra.dae\n'}
+[1.041530] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/meshes/velodyne_puck.dae\n'}
+[1.042276] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/urdf\n'}
+[1.042674] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a2.urdf.xacro\n'}
+[1.043143] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/urdf/velodyne_puck.urdf.xacro\n'}
+[1.043643] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/urdf/orbbec_astra.urdf.xacro\n'}
+[1.044135] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_s1.urdf.xacro\n'}
+[1.045928] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/urdf/slamtec_rplidar_a3.urdf.xacro\n'}
+[1.046443] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/urdf/ouster_os1_32.urdf.xacro\n'}
+[1.046907] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/urdf/intel_realsense_d435.urdf.xacro\n'}
+[1.047578] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ament_index/resource_index/package_run_dependencies/ros_components_description\n'}
+[1.048198] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ament_index/resource_index/parent_prefix_path/ros_components_description\n'}
+[1.048787] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.sh\n'}
+[1.049358] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/environment/ament_prefix_path.dsv\n'}
+[1.049882] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/environment/path.sh\n'}
+[1.050628] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/environment/path.dsv\n'}
+[1.053056] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/local_setup.bash\n'}
+[1.053849] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/local_setup.sh\n'}
+[1.054602] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/local_setup.zsh\n'}
+[1.055363] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/local_setup.dsv\n'}
+[1.056169] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/package.dsv\n'}
+[1.057160] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ament_index/resource_index/packages/ros_components_description\n'}
+[1.057859] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig.cmake\n'}
+[1.058357] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/cmake/ros_components_descriptionConfig-version.cmake\n'}
+[1.058923] (ros_components_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/ros_components_description/share/ros_components_description/package.xml\n'}
+[1.062994] (ros_components_description) CommandEnded: {'returncode': 0}
+[1.101840] (-) TimerEvent: {}
+[1.129068] (ros_components_description) JobEnded: {'identifier': 'ros_components_description', 'rc': 0}
+[1.130627] (rosbot_description) JobStarted: {'identifier': 'rosbot_description'}
+[1.142826] (rosbot_description) JobProgress: {'identifier': 'rosbot_description', 'progress': 'cmake'}
+[1.142901] (rosbot_description) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/rosbot_description', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosbot_description'], 'cwd': '/ros2_ws/build/rosbot_description', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[1.201974] (-) TimerEvent: {}
+[1.222121] (rosbot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[1.302062] (rosbot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[1.302292] (-) TimerEvent: {}
+[1.312481] (rosbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.402444] (-) TimerEvent: {}
+[1.417219] (rosbot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.422060] (rosbot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.428510] (rosbot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.429486] (rosbot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.434321] (rosbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.502578] (-) TimerEvent: {}
+[1.553252] (rosbot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.561262] (rosbot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.562157] (rosbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.563158] (rosbot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.567026] (rosbot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.602698] (-) TimerEvent: {}
+[1.702930] (-) TimerEvent: {}
+[1.773217] (rosbot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[1.803054] (-) TimerEvent: {}
+[1.903402] (-) TimerEvent: {}
+[1.945893] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.950120] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.995557] (rosbot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.001380] (rosbot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.003099] (rosbot_description) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/rosbot_description\n'}
+[2.003470] (-) TimerEvent: {}
+[2.009137] (rosbot_description) CommandEnded: {'returncode': 0}
+[2.009563] (rosbot_description) JobProgress: {'identifier': 'rosbot_description', 'progress': 'build'}
+[2.010551] (rosbot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/rosbot_description', '--', '-j2', '-l2'], 'cwd': '/ros2_ws/build/rosbot_description', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[2.063299] (rosbot_description) CommandEnded: {'returncode': 0}
+[2.081386] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.089592] (rosbot_description) JobProgress: {'identifier': 'rosbot_description', 'progress': 'install'}
+[2.090389] (rosbot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/rosbot_description'], 'cwd': '/ros2_ws/build/rosbot_description', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[2.100043] (rosbot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.100451] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/meshes\n'}
+[2.100996] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/meshes/wheel_b.dae\n'}
+[2.102013] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/meshes/mecanum_b.dae\n'}
+[2.103564] (-) TimerEvent: {}
+[2.106898] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.111577] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/meshes/cover.stl\n'}
+[2.111840] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/meshes/mecanum_a.dae\n'}
+[2.120523] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/meshes/body.stl\n'}
+[2.121627] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/meshes/wheel_a.dae\n'}
+[2.122153] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/urdf\n'}
+[2.122469] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot_macro.urdf.xacro\n'}
+[2.122590] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/urdf/body.urdf.xacro\n'}
+[2.122797] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/urdf/wheel.urdf.xacro\n'}
+[2.122910] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot.urdf.xacro\n'}
+[2.123108] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/urdf/components\n'}
+[2.123219] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/urdf/components/vl53lox.urdf.xacro\n'}
+[2.123411] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/ament_index/resource_index/package_run_dependencies/rosbot_description\n'}
+[2.123704] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/ament_index/resource_index/parent_prefix_path/rosbot_description\n'}
+[2.124051] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.sh\n'}
+[2.124440] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.dsv\n'}
+[2.124687] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/environment/path.sh\n'}
+[2.124899] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/environment/path.dsv\n'}
+[2.125143] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/local_setup.bash\n'}
+[2.125732] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/local_setup.sh\n'}
+[2.126212] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/local_setup.zsh\n'}
+[2.126332] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/local_setup.dsv\n'}
+[2.126598] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/package.dsv\n'}
+[2.126720] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/ament_index/resource_index/packages/rosbot_description\n'}
+[2.126814] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake\n'}
+[2.126903] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig-version.cmake\n'}
+[2.127091] (rosbot_description) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_description/share/rosbot_description/package.xml\n'}
+[2.138195] (rosbot_description) CommandEnded: {'returncode': 0}
+[2.168242] (rosbot_hardware_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.190272] (rosbot_description) JobEnded: {'identifier': 'rosbot_description', 'rc': 0}
+[2.194987] (mecanum_drive_controller) JobStarted: {'identifier': 'mecanum_drive_controller'}
+[2.198876] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.202956] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'cmake'}
+[2.203207] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/rosbot_controllers/mecanum_drive_controller', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/mecanum_drive_controller'], 'cwd': '/ros2_ws/build/mecanum_drive_controller', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/mecanum_drive_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.204702] (-) TimerEvent: {}
+[2.277428] (mecanum_drive_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[2.302200] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.302541] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.304802] (-) TimerEvent: {}
+[2.359398] (mecanum_drive_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[2.370172] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.405189] (-) TimerEvent: {}
+[2.412785] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.414383] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.469267] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.473530] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.474343] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.475294] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.479956] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.505312] (-) TimerEvent: {}
+[2.597796] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.605407] (-) TimerEvent: {}
+[2.606515] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.607284] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.608319] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.612561] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.705534] (-) TimerEvent: {}
+[2.806121] (-) TimerEvent: {}
+[2.829218] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.838278] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[2.906288] (-) TimerEvent: {}
+[2.952880] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.26.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[3.005799] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.006372] (-) TimerEvent: {}
+[3.012847] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.025587] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.047978] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.076800] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.106511] (-) TimerEvent: {}
+[3.206761] (-) TimerEvent: {}
+[3.307002] (-) TimerEvent: {}
+[3.372253] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.407192] (-) TimerEvent: {}
+[3.443494] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.447230] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/rosbot_hardware_interfaces\n'}
+[3.462961] (rosbot_hardware_interfaces) CommandEnded: {'returncode': 0}
+[3.463476] (rosbot_hardware_interfaces) JobProgress: {'identifier': 'rosbot_hardware_interfaces', 'progress': 'build'}
+[3.463517] (rosbot_hardware_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/rosbot_hardware_interfaces', '--', '-j2', '-l2'], 'cwd': '/ros2_ws/build/rosbot_hardware_interfaces', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_hardware_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.507327] (-) TimerEvent: {}
+[3.536180] (rosbot_hardware_interfaces) StdoutLine: {'line': b'[ 33%] Building CXX object CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_system.cpp.o\n'}
+[3.546449] (rosbot_hardware_interfaces) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_imu_sensor.cpp.o\n'}
+[3.607456] (-) TimerEvent: {}
+[3.707703] (-) TimerEvent: {}
+[3.807955] (-) TimerEvent: {}
+[3.908734] (-) TimerEvent: {}
+[4.009001] (-) TimerEvent: {}
+[4.109253] (-) TimerEvent: {}
+[4.209501] (-) TimerEvent: {}
+[4.309770] (-) TimerEvent: {}
+[4.411084] (-) TimerEvent: {}
+[4.513078] (-) TimerEvent: {}
+[4.613333] (-) TimerEvent: {}
+[4.666514] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.677360] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.713537] (-) TimerEvent: {}
+[4.814004] (-) TimerEvent: {}
+[4.915764] (-) TimerEvent: {}
+[5.016280] (-) TimerEvent: {}
+[5.094356] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.116599] (-) TimerEvent: {}
+[5.149798] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.216737] (-) TimerEvent: {}
+[5.254590] (mecanum_drive_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.293136] (mecanum_drive_controller) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.316897] (-) TimerEvent: {}
+[5.417147] (-) TimerEvent: {}
+[5.517401] (-) TimerEvent: {}
+[5.595344] (mecanum_drive_controller) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.595697] (mecanum_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.617565] (-) TimerEvent: {}
+[5.717816] (-) TimerEvent: {}
+[5.819349] (-) TimerEvent: {}
+[5.873795] (mecanum_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.875776] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.919482] (-) TimerEvent: {}
+[6.019799] (-) TimerEvent: {}
+[6.120061] (-) TimerEvent: {}
+[6.220314] (-) TimerEvent: {}
+[6.320573] (-) TimerEvent: {}
+[6.420848] (-) TimerEvent: {}
+[6.521140] (-) TimerEvent: {}
+[6.621406] (-) TimerEvent: {}
+[6.646173] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[6.721541] (-) TimerEvent: {}
+[6.821813] (-) TimerEvent: {}
+[6.922091] (-) TimerEvent: {}
+[6.923608] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[7.022232] (-) TimerEvent: {}
+[7.027255] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)\n'}
+[7.044614] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.2 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[7.122367] (-) TimerEvent: {}
+[7.222630] (-) TimerEvent: {}
+[7.322892] (-) TimerEvent: {}
+[7.423150] (-) TimerEvent: {}
+[7.523412] (-) TimerEvent: {}
+[7.623676] (-) TimerEvent: {}
+[7.723953] (-) TimerEvent: {}
+[7.824214] (-) TimerEvent: {}
+[7.924458] (-) TimerEvent: {}
+[7.955458] (mecanum_drive_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.024603] (-) TimerEvent: {}
+[8.055081] (mecanum_drive_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[8.068076] (mecanum_drive_controller) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/mecanum_drive_controller\n'}
+[8.099964] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[8.100411] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'build'}
+[8.100451] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/mecanum_drive_controller', '--', '-j2', '-l2'], 'cwd': '/ros2_ws/build/mecanum_drive_controller', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/mecanum_drive_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.124729] (-) TimerEvent: {}
+[8.224991] (-) TimerEvent: {}
+[8.288048] (mecanum_drive_controller) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o\n'}
+[8.309609] (mecanum_drive_controller) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o\n'}
+[8.325118] (-) TimerEvent: {}
+[8.425340] (-) TimerEvent: {}
+[8.525625] (-) TimerEvent: {}
+[8.625906] (-) TimerEvent: {}
+[8.726166] (-) TimerEvent: {}
+[8.826423] (-) TimerEvent: {}
+[8.926688] (-) TimerEvent: {}
+[9.026968] (-) TimerEvent: {}
+[9.127232] (-) TimerEvent: {}
+[9.227510] (-) TimerEvent: {}
+[9.327792] (-) TimerEvent: {}
+[9.428047] (-) TimerEvent: {}
+[9.528317] (-) TimerEvent: {}
+[9.628588] (-) TimerEvent: {}
+[9.728851] (-) TimerEvent: {}
+[9.829137] (-) TimerEvent: {}
+[9.929418] (-) TimerEvent: {}
+[10.029679] (-) TimerEvent: {}
+[10.129960] (-) TimerEvent: {}
+[10.230230] (-) TimerEvent: {}
+[10.330494] (-) TimerEvent: {}
+[10.430875] (-) TimerEvent: {}
+[10.531136] (-) TimerEvent: {}
+[10.631426] (-) TimerEvent: {}
+[10.731692] (-) TimerEvent: {}
+[10.826091] (mecanum_drive_controller) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/mecanum_drive_controller.dir/src/speed_limiter.cpp.o\n'}
+[10.831789] (-) TimerEvent: {}
+[10.932006] (-) TimerEvent: {}
+[11.032273] (-) TimerEvent: {}
+[11.132541] (-) TimerEvent: {}
+[11.232803] (-) TimerEvent: {}
+[11.336652] (-) TimerEvent: {}
+[11.436945] (-) TimerEvent: {}
+[11.537210] (-) TimerEvent: {}
+[11.637477] (-) TimerEvent: {}
+[11.737802] (-) TimerEvent: {}
+[11.838077] (-) TimerEvent: {}
+[11.938351] (-) TimerEvent: {}
+[12.038616] (-) TimerEvent: {}
+[12.138915] (-) TimerEvent: {}
+[12.239183] (-) TimerEvent: {}
+[12.339463] (-) TimerEvent: {}
+[12.439727] (-) TimerEvent: {}
+[12.540020] (-) TimerEvent: {}
+[12.640285] (-) TimerEvent: {}
+[12.740545] (-) TimerEvent: {}
+[12.840837] (-) TimerEvent: {}
+[12.941147] (-) TimerEvent: {}
+[13.041428] (-) TimerEvent: {}
+[13.141710] (-) TimerEvent: {}
+[13.241976] (-) TimerEvent: {}
+[13.342268] (-) TimerEvent: {}
+[13.442540] (-) TimerEvent: {}
+[13.542802] (-) TimerEvent: {}
+[13.643094] (-) TimerEvent: {}
+[13.743380] (-) TimerEvent: {}
+[13.843646] (-) TimerEvent: {}
+[13.945281] (-) TimerEvent: {}
+[14.045544] (-) TimerEvent: {}
+[14.145819] (-) TimerEvent: {}
+[14.257039] (-) TimerEvent: {}
+[14.361154] (-) TimerEvent: {}
+[14.465037] (-) TimerEvent: {}
+[14.569052] (-) TimerEvent: {}
+[14.673043] (-) TimerEvent: {}
+[14.777015] (-) TimerEvent: {}
+[14.881023] (-) TimerEvent: {}
+[14.985661] (-) TimerEvent: {}
+[15.089023] (-) TimerEvent: {}
+[15.189281] (-) TimerEvent: {}
+[15.289556] (-) TimerEvent: {}
+[15.389829] (-) TimerEvent: {}
+[15.490090] (-) TimerEvent: {}
+[15.590403] (-) TimerEvent: {}
+[15.690679] (-) TimerEvent: {}
+[15.790940] (-) TimerEvent: {}
+[15.891215] (-) TimerEvent: {}
+[15.991483] (-) TimerEvent: {}
+[16.091749] (-) TimerEvent: {}
+[16.192056] (-) TimerEvent: {}
+[16.292336] (-) TimerEvent: {}
+[16.392618] (-) TimerEvent: {}
+[16.492890] (-) TimerEvent: {}
+[16.593166] (-) TimerEvent: {}
+[16.693450] (-) TimerEvent: {}
+[16.793723] (-) TimerEvent: {}
+[16.893993] (-) TimerEvent: {}
+[16.994260] (-) TimerEvent: {}
+[17.094542] (-) TimerEvent: {}
+[17.194839] (-) TimerEvent: {}
+[17.295119] (-) TimerEvent: {}
+[17.395393] (-) TimerEvent: {}
+[17.495692] (-) TimerEvent: {}
+[17.595952] (-) TimerEvent: {}
+[17.696218] (-) TimerEvent: {}
+[17.796495] (-) TimerEvent: {}
+[17.896765] (-) TimerEvent: {}
+[17.997026] (-) TimerEvent: {}
+[18.097344] (-) TimerEvent: {}
+[18.197629] (-) TimerEvent: {}
+[18.297898] (-) TimerEvent: {}
+[18.398172] (-) TimerEvent: {}
+[18.498443] (-) TimerEvent: {}
+[18.598715] (-) TimerEvent: {}
+[18.698985] (-) TimerEvent: {}
+[18.799264] (-) TimerEvent: {}
+[18.899583] (-) TimerEvent: {}
+[19.000817] (-) TimerEvent: {}
+[19.101103] (-) TimerEvent: {}
+[19.201350] (-) TimerEvent: {}
+[19.301621] (-) TimerEvent: {}
+[19.401885] (-) TimerEvent: {}
+[19.502145] (-) TimerEvent: {}
+[19.602411] (-) TimerEvent: {}
+[19.702773] (-) TimerEvent: {}
+[19.803055] (-) TimerEvent: {}
+[19.903316] (-) TimerEvent: {}
+[20.003614] (-) TimerEvent: {}
+[20.103884] (-) TimerEvent: {}
+[20.204156] (-) TimerEvent: {}
+[20.304416] (-) TimerEvent: {}
+[20.404698] (-) TimerEvent: {}
+[20.504971] (-) TimerEvent: {}
+[20.605238] (-) TimerEvent: {}
+[20.705495] (-) TimerEvent: {}
+[20.805748] (-) TimerEvent: {}
+[20.906000] (-) TimerEvent: {}
+[21.006315] (-) TimerEvent: {}
+[21.106565] (-) TimerEvent: {}
+[21.206818] (-) TimerEvent: {}
+[21.307069] (-) TimerEvent: {}
+[21.407338] (-) TimerEvent: {}
+[21.507680] (-) TimerEvent: {}
+[21.607939] (-) TimerEvent: {}
+[21.708191] (-) TimerEvent: {}
+[21.808442] (-) TimerEvent: {}
+[21.908742] (-) TimerEvent: {}
+[22.009004] (-) TimerEvent: {}
+[22.109281] (-) TimerEvent: {}
+[22.209546] (-) TimerEvent: {}
+[22.309797] (-) TimerEvent: {}
+[22.410234] (-) TimerEvent: {}
+[22.510500] (-) TimerEvent: {}
+[22.610752] (-) TimerEvent: {}
+[22.711025] (-) TimerEvent: {}
+[22.811290] (-) TimerEvent: {}
+[22.911576] (-) TimerEvent: {}
+[23.011835] (-) TimerEvent: {}
+[23.112092] (-) TimerEvent: {}
+[23.212354] (-) TimerEvent: {}
+[23.312603] (-) TimerEvent: {}
+[23.413061] (-) TimerEvent: {}
+[23.513305] (-) TimerEvent: {}
+[23.613570] (-) TimerEvent: {}
+[23.713816] (-) TimerEvent: {}
+[23.814117] (-) TimerEvent: {}
+[23.914393] (-) TimerEvent: {}
+[24.014642] (-) TimerEvent: {}
+[24.114893] (-) TimerEvent: {}
+[24.215179] (-) TimerEvent: {}
+[24.315452] (-) TimerEvent: {}
+[24.415701] (-) TimerEvent: {}
+[24.516071] (-) TimerEvent: {}
+[24.616373] (-) TimerEvent: {}
+[24.716736] (-) TimerEvent: {}
+[24.817028] (-) TimerEvent: {}
+[24.917348] (-) TimerEvent: {}
+[25.017673] (-) TimerEvent: {}
+[25.117919] (-) TimerEvent: {}
+[25.218163] (-) TimerEvent: {}
+[25.318420] (-) TimerEvent: {}
+[25.418693] (-) TimerEvent: {}
+[25.518967] (-) TimerEvent: {}
+[25.619243] (-) TimerEvent: {}
+[25.719555] (-) TimerEvent: {}
+[25.819861] (-) TimerEvent: {}
+[25.920129] (-) TimerEvent: {}
+[26.020391] (-) TimerEvent: {}
+[26.120648] (-) TimerEvent: {}
+[26.220897] (-) TimerEvent: {}
+[26.321160] (-) TimerEvent: {}
+[26.421419] (-) TimerEvent: {}
+[26.521691] (-) TimerEvent: {}
+[26.621955] (-) TimerEvent: {}
+[26.723597] (-) TimerEvent: {}
+[26.823845] (-) TimerEvent: {}
+[26.924164] (-) TimerEvent: {}
+[27.024519] (-) TimerEvent: {}
+[27.124791] (-) TimerEvent: {}
+[27.225034] (-) TimerEvent: {}
+[27.330063] (-) TimerEvent: {}
+[27.430318] (-) TimerEvent: {}
+[27.530560] (-) TimerEvent: {}
+[27.630816] (-) TimerEvent: {}
+[27.732087] (-) TimerEvent: {}
+[27.832465] (-) TimerEvent: {}
+[27.932710] (-) TimerEvent: {}
+[28.032986] (-) TimerEvent: {}
+[28.133298] (-) TimerEvent: {}
+[28.233563] (-) TimerEvent: {}
+[28.333819] (-) TimerEvent: {}
+[28.434088] (-) TimerEvent: {}
+[28.534334] (-) TimerEvent: {}
+[28.634601] (-) TimerEvent: {}
+[28.734869] (-) TimerEvent: {}
+[28.835151] (-) TimerEvent: {}
+[28.935482] (-) TimerEvent: {}
+[29.036361] (-) TimerEvent: {}
+[29.136624] (-) TimerEvent: {}
+[29.190758] (rosbot_hardware_interfaces) StdoutLine: {'line': b'[100%] Linking CXX shared library librosbot_hardware_interfaces.so\n'}
+[29.236766] (-) TimerEvent: {}
+[29.337156] (-) TimerEvent: {}
+[29.437454] (-) TimerEvent: {}
+[29.537734] (-) TimerEvent: {}
+[29.638031] (-) TimerEvent: {}
+[29.738284] (-) TimerEvent: {}
+[29.838555] (-) TimerEvent: {}
+[29.938815] (-) TimerEvent: {}
+[30.039055] (-) TimerEvent: {}
+[30.139311] (-) TimerEvent: {}
+[30.239591] (-) TimerEvent: {}
+[30.339858] (-) TimerEvent: {}
+[30.440110] (-) TimerEvent: {}
+[30.540369] (-) TimerEvent: {}
+[30.547849] (rosbot_hardware_interfaces) StdoutLine: {'line': b'[100%] Built target rosbot_hardware_interfaces\n'}
+[30.562693] (rosbot_hardware_interfaces) CommandEnded: {'returncode': 0}
+[30.603852] (rosbot_hardware_interfaces) JobProgress: {'identifier': 'rosbot_hardware_interfaces', 'progress': 'install'}
+[30.603935] (rosbot_hardware_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/rosbot_hardware_interfaces'], 'cwd': '/ros2_ws/build/rosbot_hardware_interfaces', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_hardware_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[30.615339] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.615968] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/rosbot_hardware_interfaces.xml\n'}
+[30.616555] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/include\n'}
+[30.617017] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces\n'}
+[30.617418] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/visibility_control.hpp\n'}
+[30.617954] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_imu_sensor.hpp\n'}
+[30.618487] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_system.hpp\n'}
+[30.619015] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/launch\n'}
+[30.619451] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/launch/example_diff_drive.launch.py\n'}
+[30.619912] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/config\n'}
+[30.620278] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/config/example_diff_drive_controller.yaml\n'}
+[30.620758] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/urdf\n'}
+[30.621418] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/urdf/ros2_control.urdf.xacro\n'}
+[30.622073] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/lib/librosbot_hardware_interfaces.so\n'}
+[30.640497] (-) TimerEvent: {}
+[30.641438] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/rosbot_hardware_interfaces/lib/librosbot_hardware_interfaces.so" to ""\n'}
+[30.642085] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.sh\n'}
+[30.642649] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.dsv\n'}
+[30.643309] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/package_run_dependencies/rosbot_hardware_interfaces\n'}
+[30.643940] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/parent_prefix_path/rosbot_hardware_interfaces\n'}
+[30.644496] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.sh\n'}
+[30.645250] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.dsv\n'}
+[30.645824] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.sh\n'}
+[30.646353] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.dsv\n'}
+[30.646867] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.bash\n'}
+[30.647407] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.sh\n'}
+[30.647956] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.zsh\n'}
+[30.648472] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.dsv\n'}
+[30.649028] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.dsv\n'}
+[30.649633] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/packages/rosbot_hardware_interfaces\n'}
+[30.650221] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rosbot_hardware_interfaces\n'}
+[30.650842] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.651390] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.651922] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[30.652462] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig.cmake\n'}
+[30.653005] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig-version.cmake\n'}
+[30.653531] (rosbot_hardware_interfaces) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.xml\n'}
+[30.659626] (rosbot_hardware_interfaces) CommandEnded: {'returncode': 0}
+[30.729612] (rosbot_hardware_interfaces) JobEnded: {'identifier': 'rosbot_hardware_interfaces', 'rc': 0}
+[30.730721] (rosbot_controller) JobStarted: {'identifier': 'rosbot_controller'}
+[30.740577] (-) TimerEvent: {}
+[30.746731] (rosbot_controller) JobProgress: {'identifier': 'rosbot_controller', 'progress': 'cmake'}
+[30.746787] (rosbot_controller) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/rosbot_controller', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosbot_controller'], 'cwd': '/ros2_ws/build/rosbot_controller', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[30.826474] (rosbot_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[30.840684] (-) TimerEvent: {}
+[30.902807] (rosbot_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[30.915131] (rosbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[30.940844] (-) TimerEvent: {}
+[31.011274] (rosbot_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[31.022329] (rosbot_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[31.023704] (rosbot_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[31.024602] (rosbot_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[31.030355] (rosbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[31.040996] (-) TimerEvent: {}
+[31.141221] (-) TimerEvent: {}
+[31.141530] (rosbot_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[31.155007] (rosbot_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[31.156040] (rosbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[31.157484] (rosbot_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[31.161795] (rosbot_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[31.241389] (-) TimerEvent: {}
+[31.341624] (-) TimerEvent: {}
+[31.376836] (rosbot_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[31.441747] (-) TimerEvent: {}
+[31.541975] (-) TimerEvent: {}
+[31.609757] (rosbot_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[31.614950] (rosbot_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[31.616769] (rosbot_controller) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/rosbot_controller\n'}
+[31.623212] (rosbot_controller) CommandEnded: {'returncode': 0}
+[31.623567] (rosbot_controller) JobProgress: {'identifier': 'rosbot_controller', 'progress': 'build'}
+[31.623604] (rosbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/rosbot_controller', '--', '-j2', '-l2'], 'cwd': '/ros2_ws/build/rosbot_controller', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[31.642118] (-) TimerEvent: {}
+[31.680301] (rosbot_controller) CommandEnded: {'returncode': 0}
+[31.708830] (rosbot_controller) JobProgress: {'identifier': 'rosbot_controller', 'progress': 'install'}
+[31.709042] (rosbot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/rosbot_controller'], 'cwd': '/ros2_ws/build/rosbot_controller', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[31.719484] (rosbot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.719921] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/launch\n'}
+[31.720489] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/launch/controller.launch.py\n'}
+[31.721752] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/config\n'}
+[31.722168] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/config/diff_drive_controller.yaml\n'}
+[31.723015] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/config/mecanum_drive_controller.yaml\n'}
+[31.724049] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/ament_index/resource_index/package_run_dependencies/rosbot_controller\n'}
+[31.724639] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/ament_index/resource_index/parent_prefix_path/rosbot_controller\n'}
+[31.725290] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/environment/ament_prefix_path.sh\n'}
+[31.725841] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/environment/ament_prefix_path.dsv\n'}
+[31.726523] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/environment/path.sh\n'}
+[31.727049] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/environment/path.dsv\n'}
+[31.727707] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/local_setup.bash\n'}
+[31.728243] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/local_setup.sh\n'}
+[31.728750] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/local_setup.zsh\n'}
+[31.729479] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/local_setup.dsv\n'}
+[31.730022] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/package.dsv\n'}
+[31.730567] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/ament_index/resource_index/packages/rosbot_controller\n'}
+[31.731146] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/cmake/rosbot_controllerConfig.cmake\n'}
+[31.731650] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/cmake/rosbot_controllerConfig-version.cmake\n'}
+[31.732137] (rosbot_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_controller/share/rosbot_controller/package.xml\n'}
+[31.737931] (rosbot_controller) CommandEnded: {'returncode': 0}
+[31.742202] (-) TimerEvent: {}
+[31.797915] (rosbot_controller) JobEnded: {'identifier': 'rosbot_controller', 'rc': 0}
+[31.799347] (rosbot_bringup) JobStarted: {'identifier': 'rosbot_bringup'}
+[31.816423] (rosbot_bringup) JobProgress: {'identifier': 'rosbot_bringup', 'progress': 'cmake'}
+[31.816497] (rosbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/rosbot_bringup', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosbot_bringup'], 'cwd': '/ros2_ws/build/rosbot_bringup', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[31.842311] (-) TimerEvent: {}
+[31.890708] (rosbot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[31.942588] (-) TimerEvent: {}
+[31.965327] (rosbot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[31.979609] (rosbot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[32.042590] (-) TimerEvent: {}
+[32.073270] (rosbot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[32.086264] (rosbot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[32.087230] (rosbot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[32.088178] (rosbot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[32.093135] (rosbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[32.142716] (-) TimerEvent: {}
+[32.205232] (rosbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[32.211159] (rosbot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[32.212031] (rosbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[32.213287] (rosbot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[32.217331] (rosbot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[32.242837] (-) TimerEvent: {}
+[32.343083] (-) TimerEvent: {}
+[32.426398] (rosbot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[32.443190] (-) TimerEvent: {}
+[32.543394] (-) TimerEvent: {}
+[32.643633] (-) TimerEvent: {}
+[32.652043] (rosbot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[32.656867] (rosbot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[32.658588] (rosbot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/rosbot_bringup\n'}
+[32.665704] (rosbot_bringup) CommandEnded: {'returncode': 0}
+[32.666118] (rosbot_bringup) JobProgress: {'identifier': 'rosbot_bringup', 'progress': 'build'}
+[32.666156] (rosbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/rosbot_bringup', '--', '-j2', '-l2'], 'cwd': '/ros2_ws/build/rosbot_bringup', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[32.718420] (rosbot_bringup) CommandEnded: {'returncode': 0}
+[32.743764] (-) TimerEvent: {}
+[32.748151] (rosbot_bringup) JobProgress: {'identifier': 'rosbot_bringup', 'progress': 'install'}
+[32.748236] (rosbot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/rosbot_bringup'], 'cwd': '/ros2_ws/build/rosbot_bringup', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[32.761631] (rosbot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.762182] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/launch\n'}
+[32.762732] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/launch/bringup.launch.py\n'}
+[32.763712] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/config\n'}
+[32.764151] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/config/ekf.yaml\n'}
+[32.765301] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/ament_index/resource_index/package_run_dependencies/rosbot_bringup\n'}
+[32.765939] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/ament_index/resource_index/parent_prefix_path/rosbot_bringup\n'}
+[32.766586] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/environment/ament_prefix_path.sh\n'}
+[32.767164] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/environment/ament_prefix_path.dsv\n'}
+[32.767770] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/environment/path.sh\n'}
+[32.768435] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/environment/path.dsv\n'}
+[32.769209] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/local_setup.bash\n'}
+[32.769804] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/local_setup.sh\n'}
+[32.770388] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/local_setup.zsh\n'}
+[32.770921] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/local_setup.dsv\n'}
+[32.771419] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/package.dsv\n'}
+[32.771999] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/ament_index/resource_index/packages/rosbot_bringup\n'}
+[32.772555] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/cmake/rosbot_bringupConfig.cmake\n'}
+[32.773114] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/cmake/rosbot_bringupConfig-version.cmake\n'}
+[32.773642] (rosbot_bringup) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot_bringup/share/rosbot_bringup/package.xml\n'}
+[32.781011] (rosbot_bringup) CommandEnded: {'returncode': 0}
+[32.834783] (rosbot_bringup) JobEnded: {'identifier': 'rosbot_bringup', 'rc': 0}
+[32.836706] (rosbot) JobStarted: {'identifier': 'rosbot'}
+[32.844023] (-) TimerEvent: {}
+[32.854580] (rosbot) JobProgress: {'identifier': 'rosbot', 'progress': 'cmake'}
+[32.854636] (rosbot) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/rosbot', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/rosbot'], 'cwd': '/ros2_ws/build/rosbot', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_bringup:/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_bringup:/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[32.929257] (rosbot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[32.944190] (-) TimerEvent: {}
+[33.007106] (rosbot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[33.018002] (rosbot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[33.044635] (-) TimerEvent: {}
+[33.121257] (rosbot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[33.125259] (rosbot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[33.125962] (rosbot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[33.126754] (rosbot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[33.131264] (rosbot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[33.144727] (-) TimerEvent: {}
+[33.237244] (rosbot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[33.244824] (-) TimerEvent: {}
+[33.248812] (rosbot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[33.249748] (rosbot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[33.250726] (rosbot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[33.255060] (rosbot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[33.344980] (-) TimerEvent: {}
+[33.445220] (-) TimerEvent: {}
+[33.472789] (rosbot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[33.545337] (-) TimerEvent: {}
+[33.645564] (-) TimerEvent: {}
+[33.709117] (rosbot) StdoutLine: {'line': b'-- Configuring done\n'}
+[33.713890] (rosbot) StdoutLine: {'line': b'-- Generating done\n'}
+[33.715344] (rosbot) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/rosbot\n'}
+[33.722293] (rosbot) CommandEnded: {'returncode': 0}
+[33.722752] (rosbot) JobProgress: {'identifier': 'rosbot', 'progress': 'build'}
+[33.722792] (rosbot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/rosbot', '--', '-j2', '-l2'], 'cwd': '/ros2_ws/build/rosbot', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_bringup:/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_bringup:/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[33.745645] (-) TimerEvent: {}
+[33.771954] (rosbot) CommandEnded: {'returncode': 0}
+[33.798410] (rosbot) JobProgress: {'identifier': 'rosbot', 'progress': 'install'}
+[33.798470] (rosbot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/rosbot'], 'cwd': '/ros2_ws/build/rosbot', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros2_ws/install/rosbot_hardware_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/ros2_ws/install/rosbot_bringup:/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble'), ('PWD', '/ros2_ws/build/rosbot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/ros2_ws/install/rosbot_bringup:/ros2_ws/install/rosbot_controller:/ros2_ws/install/rosbot_description:/ros2_ws/install/rosbot_hardware_interfaces:/ros2_ws/install/ros_components_description:/opt/ros/humble')]), 'shell': False}
+[33.808200] (rosbot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.808848] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/ament_index/resource_index/package_run_dependencies/rosbot\n'}
+[33.809541] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/ament_index/resource_index/parent_prefix_path/rosbot\n'}
+[33.810272] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/environment/ament_prefix_path.sh\n'}
+[33.810843] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/environment/ament_prefix_path.dsv\n'}
+[33.811487] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/environment/path.sh\n'}
+[33.812072] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/environment/path.dsv\n'}
+[33.812599] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/local_setup.bash\n'}
+[33.813289] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/local_setup.sh\n'}
+[33.813856] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/local_setup.zsh\n'}
+[33.814411] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/local_setup.dsv\n'}
+[33.814925] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/package.dsv\n'}
+[33.815509] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/ament_index/resource_index/packages/rosbot\n'}
+[33.816084] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/cmake/rosbotConfig.cmake\n'}
+[33.816557] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/cmake/rosbotConfig-version.cmake\n'}
+[33.817122] (rosbot) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/rosbot/share/rosbot/package.xml\n'}
+[33.821830] (rosbot) CommandEnded: {'returncode': 0}
+[33.845768] (-) TimerEvent: {}
+[33.874843] (rosbot) JobEnded: {'identifier': 'rosbot', 'rc': 0}
+[33.945961] (-) TimerEvent: {}
+[34.046319] (-) TimerEvent: {}
+[34.146596] (-) TimerEvent: {}
+[34.246891] (-) TimerEvent: {}
+[34.347151] (-) TimerEvent: {}
+[34.447464] (-) TimerEvent: {}
+[34.547801] (-) TimerEvent: {}
+[34.648123] (-) TimerEvent: {}
+[34.748396] (-) TimerEvent: {}
+[34.848686] (-) TimerEvent: {}
+[34.948951] (-) TimerEvent: {}
+[35.049205] (-) TimerEvent: {}
+[35.149606] (-) TimerEvent: {}
+[35.249886] (-) TimerEvent: {}
+[35.350179] (-) TimerEvent: {}
+[35.450469] (-) TimerEvent: {}
+[35.550759] (-) TimerEvent: {}
+[35.651064] (-) TimerEvent: {}
+[35.751341] (-) TimerEvent: {}
+[35.851650] (-) TimerEvent: {}
+[35.951973] (-) TimerEvent: {}
+[36.052268] (-) TimerEvent: {}
+[36.152569] (-) TimerEvent: {}
+[36.252858] (-) TimerEvent: {}
+[36.353213] (-) TimerEvent: {}
+[36.453636] (-) TimerEvent: {}
+[36.553903] (-) TimerEvent: {}
+[36.654215] (-) TimerEvent: {}
+[36.754549] (-) TimerEvent: {}
+[36.854913] (-) TimerEvent: {}
+[36.955207] (-) TimerEvent: {}
+[37.055534] (-) TimerEvent: {}
+[37.155873] (-) TimerEvent: {}
+[37.256163] (-) TimerEvent: {}
+[37.356451] (-) TimerEvent: {}
+[37.456758] (-) TimerEvent: {}
+[37.557198] (-) TimerEvent: {}
+[37.657553] (-) TimerEvent: {}
+[37.757888] (-) TimerEvent: {}
+[37.858217] (-) TimerEvent: {}
+[37.958595] (-) TimerEvent: {}
+[38.058929] (-) TimerEvent: {}
+[38.113598] (mecanum_drive_controller) StdoutLine: {'line': b'[100%] Linking CXX shared library libmecanum_drive_controller.so\n'}
+[38.159144] (-) TimerEvent: {}
+[38.259471] (-) TimerEvent: {}
+[38.359757] (-) TimerEvent: {}
+[38.460074] (-) TimerEvent: {}
+[38.560363] (-) TimerEvent: {}
+[38.660683] (-) TimerEvent: {}
+[38.761042] (-) TimerEvent: {}
+[38.861334] (-) TimerEvent: {}
+[38.961675] (-) TimerEvent: {}
+[39.062719] (-) TimerEvent: {}
+[39.163008] (-) TimerEvent: {}
+[39.263394] (-) TimerEvent: {}
+[39.315109] (mecanum_drive_controller) StdoutLine: {'line': b'[100%] Built target mecanum_drive_controller\n'}
+[39.329930] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[39.363518] (-) TimerEvent: {}
+[39.370445] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'install'}
+[39.371001] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/mecanum_drive_controller'], 'cwd': '/ros2_ws/build/mecanum_drive_controller', 'env': OrderedDict([('OTEL_EXPORTER_OTLP_TRACES_PROTOCOL', 'grpc'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('OTEL_TRACE_PARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('TRACEPARENT', '00-dbaa07a82066e78250b0ac19ad071a2e-239a6a138b3d7d63-01'), ('OTEL_EXPORTER_OTLP_TRACES_ENDPOINT', 'unix:///dev/otel-grpc.sock'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('PREFIX', ''), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/mecanum_drive_controller'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('OTEL_TRACES_EXPORTER', 'otlp'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[39.381944] (mecanum_drive_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[39.382244] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/mecanum_drive_plugin.xml\n'}
+[39.382586] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/include\n'}
+[39.382794] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller\n'}
+[39.382900] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp\n'}
+[39.383171] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/speed_limiter.hpp\n'}
+[39.383293] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/visibility_control.h\n'}
+[39.383486] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/odometry.hpp\n'}
+[39.383701] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so\n'}
+[39.405370] (mecanum_drive_controller) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""\n'}
+[39.405616] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh\n'}
+[39.405880] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv\n'}
+[39.406000] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller\n'}
+[39.406185] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller\n'}
+[39.406425] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh\n'}
+[39.406644] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv\n'}
+[39.406855] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh\n'}
+[39.407106] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv\n'}
+[39.407320] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash\n'}
+[39.407539] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh\n'}
+[39.407796] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh\n'}
+[39.408012] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv\n'}
+[39.408207] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv\n'}
+[39.408491] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller\n'}
+[39.408895] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller\n'}
+[39.409278] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[39.409510] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[39.409761] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[39.410042] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake\n'}
+[39.410240] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake\n'}
+[39.410481] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml\n'}
+[39.412679] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[39.463659] (-) TimerEvent: {}
+[39.492977] (mecanum_drive_controller) JobEnded: {'identifier': 'mecanum_drive_controller', 'rc': 0}
+[39.495219] (-) EventReactorShutdown: {}
