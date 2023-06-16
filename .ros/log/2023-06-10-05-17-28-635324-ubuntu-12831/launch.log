@@ -1,0 +1,5 @@
+1686399448.6513057 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-10-05-17-28-635324-ubuntu-12831
+1686399448.6527190 [INFO] [launch]: Default logging verbosity is set to INFO
+1686399449.1959524 [INFO] [drive_pattern-1]: process started with pid [12876]
+1686399712.3369823 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1686399712.6490543 [ERROR] [drive_pattern-1]: process has died [pid 12876, exit code -2, cmd '/home/husarion/ROS2swarm/install/ros2swarm/lib/ros2swarm/drive_pattern --ros-args --log-level info --ros-args -r __ns:=/robot_namespace_1 --params-file /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/movement_pattern/basic/drive_pattern.yaml'].

@@ -1,0 +1,4 @@
+1686459840.0209968 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-10-22-03-59-999841-ubuntu-38965
+1686459840.0238810 [INFO] [launch]: Default logging verbosity is set to INFO
+1686459840.5488310 [INFO] [sllidar_node-1]: process started with pid [38968]
+1686459844.7679143 [ERROR] [sllidar_node-1]: process has died [pid 38968, exit code 255, cmd '/home/husarion/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node --ros-args -r __node:=sllidar_node --params-file /tmp/launch_params_juzfkz39'].

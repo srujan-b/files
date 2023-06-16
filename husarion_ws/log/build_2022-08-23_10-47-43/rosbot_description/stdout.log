@@ -1,0 +1,233 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclpy: 1.0.8 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found gazebo_ros_pkgs: 3.5.3 (/opt/ros/foxy/share/gazebo_ros_pkgs/cmake)
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/husarion/husarion_ws/src/rosbot_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/husarion/husarion_ws/build/rosbot_description
+Scanning dependencies of target rosbot_tf
+[ 33%] Building CXX object CMakeFiles/rosbot_tf.dir/src/rosbot_tf_node.cpp.o
+[ 66%] Building CXX object CMakeFiles/rosbot_tf.dir/src/rosbot_tf.cpp.o
+[100%] Linking CXX executable rosbot_tf
+[100%] Built target rosbot_tf
+-- Install configuration: ""
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/nav2_params.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/rosserial_pro.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/slam_toolbox.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/nav2_params_nav_amcl_sim_demo.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/rosserial.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/nav2_params_sim.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/static_tf_sim.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/static_tf.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/rosbot.rviz
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/slam_toolbox_sim.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/config/nav2_params_pro.yaml
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/navigation_demo_sim.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/rosbot_navigation.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/rosbot_spawn.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/rosbot_navigation_sim.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/navigation_demo.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/navigation_demo_pro.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/navigation_docker.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/slam_toolbox_sim.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/rosbot_pro.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/rosbot.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/nav_amcl_demo_sim.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/rosbot_navigation_pro.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/slam_toolbox.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/launch/rosbot_sim.launch.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/models
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/models/rosbot.sdf
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/models/rosbot.config
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/worlds
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/worlds/astra.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/worlds/upper.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/worlds/wheel.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/worlds/rplidar.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/worlds/willow_garage.world
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/worlds/box.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/urdf
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot.urdf
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/urdf/model.urdf
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/urdf/materials.xacro
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/urdf/macros.xacro
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot.xacro
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot.gazebo
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/meshes
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/meshes/astra.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/meshes/upper.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/meshes/wheel-v2.stl
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/meshes/wheel.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/meshes/rplidar.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/meshes/box.dae
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/rviz
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/rviz/nav2_default_view.rviz
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosbot_tf
+-- Set runtime path of "/home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosbot_tf" to ""
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial_node.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/serialclient.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_Vector3.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_Quaternion.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_Twist.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_TransformStamped.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_Point.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_TwistStamped.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_Pose.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_PoseStamped.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/msg/_Transform.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/geometry_msgs/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/deps.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/command_line.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/srvs.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/template_tools.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/names.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/msg_loader.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/gentools.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/base.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genmsg/msgs.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/msg
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/msg/_Log.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/msg/_TopicInfo.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/msg/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/srv
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/srv/_RequestMessageInfo.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/srv/_RequestParam.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/srv/_RequestServiceInfo.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/srv/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosserial_msgs/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Float32.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Duration.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Int32.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Float64.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_ByteMultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Int64MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_UInt64.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_UInt16MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Int8MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_MultiArrayLayout.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Int8.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Bool.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Float32MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_String.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_UInt16.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_UInt32MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Int32MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Time.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_UInt8MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_UInt8.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Float64MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_UInt32.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Int16MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_ColorRGBA.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Int64.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_UInt64MultiArray.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Empty.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Int16.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Header.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Char.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_MultiArrayDimension.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/msg/_Byte.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/std_msgs/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/message.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/generate_numpy.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/rostime.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/generate_struct.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/generator.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/dynamic.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/base.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/generate_initpy.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/genpy/genpy_main.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosbot_ekf
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosbot_ekf/msg
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosbot_ekf/msg/_Imu.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosbot_ekf/msg/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosbot_ekf/srv
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosbot_ekf/srv/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosbot_ekf/srv/_Configuration.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/rosbot_ekf/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/sensor_msgs
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/sensor_msgs/msg
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/sensor_msgs/msg/_BatteryState.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/sensor_msgs/msg/_Imu.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/sensor_msgs/msg/_Range.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/sensor_msgs/msg/_JointState.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/sensor_msgs/msg/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/lib/rosbot_description/rosserial/sensor_msgs/__init__.py
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/ament_index/resource_index/package_run_dependencies/rosbot_description
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/ament_index/resource_index/parent_prefix_path/rosbot_description
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.sh
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/environment/path.sh
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/environment/path.dsv
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/local_setup.bash
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/local_setup.sh
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/local_setup.zsh
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/local_setup.dsv
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.dsv
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/ament_index/resource_index/packages/rosbot_description
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig-version.cmake
+-- Installing: /home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.xml

@@ -1,0 +1,5 @@
+1686830146.1547260 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-15-04-55-46-121113-ubuntu-5757
+1686830146.1562896 [INFO] [launch]: Default logging verbosity is set to INFO
+1686830146.6154683 [INFO] [lidar_layer-1]: process started with pid [5760]
+1686830146.6167598 [INFO] [hardware_protection_layer-2]: process started with pid [5762]
+1686830146.6178961 [INFO] [drive_pattern-3]: process started with pid [5764]

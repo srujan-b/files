@@ -1,0 +1,12 @@
+1686312675.4575412 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-09-05-11-15-445253-ubuntu-17499
+1686312675.4587708 [INFO] [launch]: Default logging verbosity is set to INFO
+1686312675.9136863 [WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/movement_pattern/basic/drive_pattern.yaml
+1686312676.0205441 [INFO] [lidar_layer-1]: process started with pid [17503]
+1686312676.0216632 [INFO] [hardware_protection_layer-2]: process started with pid [17505]
+1686312676.0228589 [INFO] [drive_pattern-3]: process started with pid [17507]
+1686312676.0238521 [INFO] [robot_state_publisher-4]: process started with pid [17509]
+1686312681.2942445 [ERROR] [robot_state_publisher-4]: process has died [pid 17509, exit code -6, cmd '/opt/ros/foxy/lib/robot_state_publisher/robot_state_publisher  --ros-args --log-level warn --ros-args -r __ns:=/robot_namespace_1 --params-file /tmp/launch_params_fu3vbp7p'].
+1686312899.8154652 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1686312900.1375644 [ERROR] [lidar_layer-1]: process has died [pid 17503, exit code -2, cmd '/home/husarion/ROS2swarm/install/ros2swarm/lib/ros2swarm/lidar_layer --ros-args --log-level info --ros-args -r __ns:=/robot_namespace_1 --params-file /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/sensor_specification.yaml'].
+1686312900.1545966 [ERROR] [drive_pattern-3]: process has died [pid 17507, exit code -2, cmd '/home/husarion/ROS2swarm/install/ros2swarm/lib/ros2swarm/drive_pattern --ros-args --log-level info --ros-args -r __ns:=/robot_namespace_1'].
+1686312900.2122486 [ERROR] [hardware_protection_layer-2]: process has died [pid 17505, exit code -2, cmd '/home/husarion/ROS2swarm/install/ros2swarm/lib/ros2swarm/hardware_protection_layer --ros-args --log-level info --ros-args -r __ns:=/robot_namespace_1 --params-file /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/hardware_protection_layer.yaml'].

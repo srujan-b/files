@@ -1,0 +1,2 @@
+[INFO] [1686459840.680911480] [sllidar_node]: SLLidar running on ROS2 package SLLidar.ROS2 SDK Version:1.0.1, SLLIDAR SDK Version:2.0.0
+[ERROR] [1686459844.729800023] [sllidar_node]: Error, operation time out. SL_RESULT_OPERATION_TIMEOUT! 

@@ -1,0 +1,8 @@
+source;share/route_admin_panel/hook/cmake_prefix_path.ps1
+source;share/route_admin_panel/hook/cmake_prefix_path.dsv
+source;share/route_admin_panel/hook/cmake_prefix_path.sh
+source;share/route_admin_panel/local_setup.bash
+source;share/route_admin_panel/local_setup.dsv
+source;share/route_admin_panel/local_setup.ps1
+source;share/route_admin_panel/local_setup.sh
+source;share/route_admin_panel/local_setup.zsh

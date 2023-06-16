@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.003194] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.004420] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[0.099374] (-) TimerEvent: {}
+[0.134841] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[0.136318] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/home/husarion/uros_ws/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/home/husarion/uros_ws/install/micro_ros_setup'], 'cwd': '/home/husarion/uros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 60581 22'), ('ROS_NAMESPACE', 'robot5'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/uros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 60581 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[0.199744] (-) TimerEvent: {}
+[0.301079] (-) TimerEvent: {}
+[0.401993] (-) TimerEvent: {}
+[0.503464] (-) TimerEvent: {}
+[0.604541] (-) TimerEvent: {}
+[0.706311] (-) TimerEvent: {}
+[0.788887] (micro_ros_setup) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.806491] (-) TimerEvent: {}
+[0.907481] (-) TimerEvent: {}
+[1.008999] (-) TimerEvent: {}
+[1.110194] (-) TimerEvent: {}
+[1.212092] (-) TimerEvent: {}
+[1.313783] (-) TimerEvent: {}
+[1.414709] (-) TimerEvent: {}
+[1.487493] (micro_ros_setup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.515059] (-) TimerEvent: {}
+[1.551830] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.615286] (-) TimerEvent: {}
+[1.716273] (-) TimerEvent: {}
+[1.817675] (-) TimerEvent: {}
+[1.919554] (-) TimerEvent: {}
+[2.001342] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.019748] (-) TimerEvent: {}
+[2.037379] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.119964] (-) TimerEvent: {}
+[2.221075] (-) TimerEvent: {}
+[2.323322] (-) TimerEvent: {}
+[2.425000] (-) TimerEvent: {}
+[2.495454] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.525558] (-) TimerEvent: {}
+[2.598814] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.603444] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.623140] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[2.625392] (-) TimerEvent: {}
+[2.726322] (-) TimerEvent: {}
+[2.827334] (-) TimerEvent: {}
+[2.928306] (-) TimerEvent: {}
+[3.029226] (-) TimerEvent: {}
+[3.092764] (micro_ros_setup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.098221] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.129481] (-) TimerEvent: {}
+[3.230700] (-) TimerEvent: {}
+[3.331726] (-) TimerEvent: {}
+[3.432695] (-) TimerEvent: {}
+[3.533895] (-) TimerEvent: {}
+[3.590544] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.634129] (-) TimerEvent: {}
+[3.671831] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.675052] (micro_ros_setup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.730003] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[3.734376] (-) TimerEvent: {}
+[3.836612] (-) TimerEvent: {}
+[3.937868] (-) TimerEvent: {}
+[3.957416] (micro_ros_setup) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[3.958493] (micro_ros_setup) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.038163] (-) TimerEvent: {}
+[4.139712] (-) TimerEvent: {}
+[4.241270] (-) TimerEvent: {}
+[4.342713] (-) TimerEvent: {}
+[4.444168] (-) TimerEvent: {}
+[4.545689] (-) TimerEvent: {}
+[4.647124] (-) TimerEvent: {}
+[4.748622] (-) TimerEvent: {}
+[4.850177] (-) TimerEvent: {}
+[4.951614] (-) TimerEvent: {}
+[5.053065] (-) TimerEvent: {}
+[5.153966] (-) TimerEvent: {}
+[5.255488] (-) TimerEvent: {}
+[5.343686] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.355793] (-) TimerEvent: {}
+[5.456889] (-) TimerEvent: {}
+[5.558366] (-) TimerEvent: {}
+[5.659796] (-) TimerEvent: {}
+[5.761348] (-) TimerEvent: {}
+[5.862846] (-) TimerEvent: {}
+[5.886731] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.963107] (-) TimerEvent: {}
+[5.998087] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.013764] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.023283] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[6.063408] (-) TimerEvent: {}
+[6.080107] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.093757] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.103765] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[6.108508] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /home/husarion/uros_ws/build/micro_ros_setup\n'}
+[6.124520] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[6.130089] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[6.136482] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/husarion/uros_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/husarion/uros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 60581 22'), ('ROS_NAMESPACE', 'robot5'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/uros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 60581 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[6.163901] (-) TimerEvent: {}
+[6.266358] (-) TimerEvent: {}
+[6.365327] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[6.367509] (-) TimerEvent: {}
+[6.469257] (-) TimerEvent: {}
+[6.510294] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[6.576230] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/husarion/uros_ws/build/micro_ros_setup'], 'cwd': '/home/husarion/uros_ws/build/micro_ros_setup', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'husarion'), ('SSH_CLIENT', '192.168.100.89 60581 22'), ('ROS_NAMESPACE', 'robot5'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs/lib:/home/husarion/ROS2swarm/install/communication_interfaces/lib:/home/husarion/husarion_ws/install/rplidar_ros/lib:/home/husarion/husarion_ws/install/astra_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/husarion'), ('OLDPWD', '/home/husarion'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('ROSBOT_VER', 'ROSBOT_2.0_PRO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/husarion/ROS2swarm/install:/home/husarion/husarion_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'husarion'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('SSH_INITIAL_SESSION', 'y'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '5'), ('AMENT_PREFIX_PATH', '/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/husarion/uros_ws/build/micro_ros_setup'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.100.89 60581 192.168.100.90 22'), ('PYTHONPATH', '/home/husarion/ROS2swarm/build/thymio_driver:/home/husarion/ROS2swarm/install/thymio_driver/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/thymio_msgs/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/ros2swarm:/home/husarion/ROS2swarm/install/ros2swarm/lib/python3.8/site-packages:/home/husarion/ROS2swarm/build/launch_gazebo:/home/husarion/ROS2swarm/install/launch_gazebo/lib/python3.8/site-packages:/home/husarion/ROS2swarm/install/communication_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/husarion/ROS2swarm/install/thymio_msgs:/home/husarion/ROS2swarm/install/thymio_description:/home/husarion/ROS2swarm/install/communication_interfaces:/home/husarion/husarion_ws/install/rplidar_ros:/home/husarion/husarion_ws/install/route_admin_panel:/home/husarion/husarion_ws/install/rosbot_description:/home/husarion/husarion_ws/install/astra_camera:/home/husarion/ROS2swarm/install/thymio_driver:/home/husarion/ROS2swarm/install/ros2swarm:/home/husarion/ROS2swarm/install/launch_gazebo:/opt/ros/foxy')]), 'shell': False}
+[6.581761] (-) TimerEvent: {}
+[6.622182] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.624023] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[6.625815] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[6.627515] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[6.629130] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[6.630695] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[6.631427] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[6.632060] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[6.632621] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[6.633337] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[6.634098] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[6.635146] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[6.635867] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[6.636462] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[6.637090] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[6.637787] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[6.638363] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config\n'}
+[6.638929] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[6.639592] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[6.640160] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[6.640802] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[6.641861] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr\n'}
+[6.643404] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[6.644292] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[6.644967] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[6.645586] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[6.646243] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[6.646872] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[6.647585] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[6.648170] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[6.648747] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[6.649373] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/reset.sh\n'}
+[6.649956] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[6.650615] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[6.651179] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[6.651870] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[6.652421] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host\n'}
+[6.653007] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[6.653579] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[6.654166] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[6.654747] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/generic\n'}
+[6.655552] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[6.656286] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[6.657010] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[6.657828] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[6.658983] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/generic/reset.sh\n'}
+[6.660036] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[6.661073] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[6.661810] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos\n'}
+[6.662392] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[6.662972] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[6.663540] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[6.664278] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[6.665095] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[6.665881] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/reset.sh\n'}
+[6.666659] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[6.667306] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[6.667948] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[6.668665] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[6.669579] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[6.670309] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[6.670954] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[6.671676] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[6.672312] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[6.673517] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[6.674369] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[6.675055] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[6.675934] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[6.676770] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[6.677626] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[6.678224] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[6.678903] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[6.679558] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[6.680114] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[6.680676] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/reset.sh\n'}
+[6.681328] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[6.682008] (-) TimerEvent: {}
+[6.682603] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[6.683279] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[6.683953] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[6.684640] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[6.685304] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[6.686054] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[6.686635] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[6.687203] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[6.687895] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/reset.sh\n'}
+[6.688479] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[6.689107] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[6.689701] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[6.690371] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[6.690940] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[6.691595] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[6.692180] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[6.692749] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[6.693375] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[6.693956] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[6.694521] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/reset.sh\n'}
+[6.695591] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[6.696558] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[6.697428] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[6.698395] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[6.699205] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[6.699988] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[6.700710] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[6.701582] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[6.702402] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[6.703081] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/reset.sh\n'}
+[6.703647] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[6.704359] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[6.705000] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[6.705612] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[6.706282] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[6.706842] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[6.707427] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[6.707870] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[6.708474] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[6.709116] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[6.709877] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[6.710474] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[6.711057] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[6.711624] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[6.712313] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[6.712912] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra\n'}
+[6.713379] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[6.713812] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[6.714243] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[6.714673] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[6.715101] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[6.715527] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[6.715952] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[6.716378] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[6.717976] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[6.720266] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[6.725973] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[6.726533] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx\n'}
+[6.727029] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/dev_ros2_packages.txt\n'}
+[6.727559] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/dev_uros_packages.repos\n'}
+[6.728274] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic\n'}
+[6.729087] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/uros_packages.repos\n'}
+[6.729832] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/flash.sh\n'}
+[6.730583] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/package.xml\n'}
+[6.731289] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/supported_platforms\n'}
+[6.731982] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/build.sh\n'}
+[6.732687] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/reset.sh\n'}
+[6.733464] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/configure.sh\n'}
+[6.734167] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/client-colcon.meta\n'}
+[6.734850] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/create.sh\n'}
+[6.735531] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/nuttx/generic/client_uros_packages.repos\n'}
+[6.736214] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian\n'}
+[6.736903] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[6.737734] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[6.738442] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[6.739164] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[6.739904] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[6.740658] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[6.741335] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[6.741819] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[6.742280] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[6.742716] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[6.743149] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[6.743584] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[6.744016] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[6.744445] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[6.744907] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[6.745354] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[6.745784] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[6.746210] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[6.746642] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[6.747067] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[6.747495] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[6.747920] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[6.748344] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[6.748837] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[6.761445] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[6.766400] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[6.768760] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[6.771427] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/reset_firmware.sh\n'}
+[6.773013] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[6.773734] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[6.774599] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[6.775311] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/husarion/uros_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[6.775957] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[6.782637] (-) TimerEvent: {}
+[6.884534] (-) TimerEvent: {}
+[6.987521] (-) TimerEvent: {}
+[7.089305] (-) TimerEvent: {}
+[7.107806] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[7.112343] (-) EventReactorShutdown: {}

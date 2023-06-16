@@ -1,0 +1,8 @@
+1686313105.7266698 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-09-05-18-25-713811-ubuntu-20886
+1686313105.7284348 [INFO] [launch]: Default logging verbosity is set to INFO
+1686313106.2024424 [WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/movement_pattern/basic/drive_pattern.yaml
+1686313106.2914536 [INFO] [lidar_layer-1]: process started with pid [20889]
+1686313106.2950795 [INFO] [hardware_protection_layer-2]: process started with pid [20891]
+1686313106.2969074 [INFO] [drive_pattern-3]: process started with pid [20893]
+1686313106.3006117 [INFO] [robot_state_publisher-4]: process started with pid [20895]
+1686313108.7073746 [ERROR] [robot_state_publisher-4]: process has died [pid 20895, exit code -6, cmd '/opt/ros/foxy/lib/robot_state_publisher/robot_state_publisher  --ros-args --log-level warn --ros-args -r __ns:=/robot_namespace_1 --params-file /tmp/launch_params_eono_9su'].

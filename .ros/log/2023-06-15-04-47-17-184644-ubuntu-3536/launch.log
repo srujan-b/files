@@ -1,0 +1,9 @@
+1686829637.2030654 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-15-04-47-17-184644-ubuntu-3536
+1686829637.2047262 [INFO] [launch]: Default logging verbosity is set to INFO
+1686829637.9463801 [INFO] [lidar_layer-1]: process started with pid [3539]
+1686829637.9474211 [INFO] [hardware_protection_layer-2]: process started with pid [3541]
+1686829637.9481812 [INFO] [drive_pattern-3]: process started with pid [3543]
+1686830110.9753850 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1686830111.3488677 [ERROR] [lidar_layer-1]: process has died [pid 3539, exit code -2, cmd '/home/husarion/ROS2swarm/install/ros2swarm/lib/ros2swarm/lidar_layer --ros-args --log-level info --ros-args -r __ns:=/robot_namespace_1 --params-file /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/sensor_specification.yaml'].
+1686830111.3959765 [ERROR] [drive_pattern-3]: process has died [pid 3543, exit code -2, cmd '/home/husarion/ROS2swarm/install/ros2swarm/lib/ros2swarm/drive_pattern --ros-args --log-level info --ros-args -r __ns:=/robot_namespace_1 --params-file /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/movement_pattern/basic/drive_pattern.yaml'].
+1686830111.4818943 [ERROR] [hardware_protection_layer-2]: process has died [pid 3541, exit code -2, cmd '/home/husarion/ROS2swarm/install/ros2swarm/lib/ros2swarm/hardware_protection_layer --ros-args --log-level info --ros-args -r __ns:=/robot_namespace_1 --params-file /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/hardware_protection_layer.yaml'].

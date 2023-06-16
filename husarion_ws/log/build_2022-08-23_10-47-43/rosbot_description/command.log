@@ -1,0 +1,6 @@
+Invoking command in '/home/husarion/husarion_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/rosbot_ros -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/rosbot_description
+Invoked command in '/home/husarion/husarion_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/rosbot_ros -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/rosbot_description
+Invoking command in '/home/husarion/husarion_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/rosbot_description -- -j2 -l2
+Invoked command in '/home/husarion/husarion_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/rosbot_description -- -j2 -l2
+Invoking command in '/home/husarion/husarion_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/rosbot_description
+Invoked command in '/home/husarion/husarion_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/rosbot_description

@@ -1,0 +1,8 @@
+[INFO] [1686461150.211761894] [denster.sllidar_node]: SLLidar running on ROS2 package SLLidar.ROS2 SDK Version:1.0.1, SLLIDAR SDK Version:2.0.0
+[INFO] [1686461150.258889837] [denster.sllidar_node]: SLLidar S/N: D4829A87C5E392D2A5E492F84457316C
+[INFO] [1686461150.259211046] [denster.sllidar_node]: Firmware Ver: 1.27
+[INFO] [1686461150.259383737] [denster.sllidar_node]: Hardware Rev: 6
+[INFO] [1686461150.311012595] [denster.sllidar_node]: SLLidar health status : 0
+[INFO] [1686461150.311264357] [denster.sllidar_node]: SLLidar health status : OK.
+[INFO] [1686461150.755134095] [denster.sllidar_node]: current scan mode: Standard, sample rate: 4 Khz, max_distance: 16.0 m, scan frequency:10.0 Hz, 
+[INFO] [1686461733.678822190] [denster.sllidar_node]: Stop motor

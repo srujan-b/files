@@ -1,0 +1,357 @@
+[0.235s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.235s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f414cca8700>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f414cca8700>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f414cca8c40>)
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.269s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.269s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/husarion/husarion_ws'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros' with type 'ros.ament_cmake' and name 'rosbot_description'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/route_admin_panel) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'src/route_admin_panel' with type 'ros.ament_cmake' and name 'route_admin_panel'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.301s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.301s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.351s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 297 installed packages in /opt/ros/foxy
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/husarion_ws/build/astra_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/husarion_ws/install/astra_camera', 'merge_install': False, 'path': '/home/husarion/husarion_ws/src/ros_astra_camera', 'symlink_install': False, 'test_result_base': None}
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/husarion_ws/build/rosbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/husarion_ws/install/rosbot_description', 'merge_install': False, 'path': '/home/husarion/husarion_ws/src/rosbot_ros', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'route_admin_panel' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'route_admin_panel' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/husarion_ws/build/route_admin_panel', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/husarion_ws/install/route_admin_panel', 'merge_install': False, 'path': '/home/husarion/husarion_ws/src/route_admin_panel', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/husarion/husarion_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/husarion/husarion_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/husarion/husarion_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.442s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/husarion/husarion_ws/src/ros_astra_camera' with build type 'ament_cmake'
+[0.443s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/husarion/husarion_ws/src/ros_astra_camera'
+[0.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/husarion/husarion_ws/src/rosbot_ros' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/husarion/husarion_ws/src/rosbot_ros'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/ros_astra_camera -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/astra_camera
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/rosbot_ros -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/rosbot_description
+[2.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/ros_astra_camera -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/astra_camera
+[2.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/astra_camera -- -j2 -l2
+[2.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/rosbot_ros -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/rosbot_description
+[2.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/rosbot_description -- -j2 -l2
+[12.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/rosbot_description -- -j2 -l2
+[12.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/rosbot_description
+[12.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_description)
+[12.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/rosbot_description
+[12.242s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description' for CMake module files
+[12.242s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description' for CMake config files
+[12.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_description', 'cmake_prefix_path')
+[12.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.ps1'
+[12.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.dsv'
+[12.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.sh'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/lib'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/bin'
+[12.248s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/lib/pkgconfig/rosbot_description.pc'
+[12.249s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/lib/python3.8/site-packages'
+[12.250s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/bin'
+[12.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.ps1'
+[12.253s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.dsv'
+[12.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.sh'
+[12.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.bash'
+[12.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.zsh'
+[12.256s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/husarion_ws/install/rosbot_description/share/colcon-core/packages/rosbot_description)
+[12.304s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_description)
+[12.306s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description' for CMake module files
+[12.307s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description' for CMake config files
+[12.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_description', 'cmake_prefix_path')
+[12.309s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.ps1'
+[12.310s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.dsv'
+[12.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.sh'
+[12.311s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/lib'
+[12.312s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/bin'
+[12.312s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/lib/pkgconfig/rosbot_description.pc'
+[12.312s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/lib/python3.8/site-packages'
+[12.312s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rosbot_description/bin'
+[12.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.ps1'
+[12.314s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.dsv'
+[12.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.sh'
+[12.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.bash'
+[12.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rosbot_description/share/rosbot_description/package.zsh'
+[12.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/husarion_ws/install/rosbot_description/share/colcon-core/packages/rosbot_description)
+[12.319s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/husarion/husarion_ws/src/route_admin_panel' with build type 'ament_cmake'
+[12.319s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/husarion/husarion_ws/src/route_admin_panel'
+[12.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/route_admin_panel': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/route_admin_panel -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/route_admin_panel
+[14.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/route_admin_panel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/route_admin_panel -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/route_admin_panel
+[14.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/route_admin_panel': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/route_admin_panel -- -j2 -l2
+[25.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/route_admin_panel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/route_admin_panel -- -j2 -l2
+[25.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/route_admin_panel': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/route_admin_panel
+[27.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(route_admin_panel)
+[27.093s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel' for CMake module files
+[27.094s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel' for CMake config files
+[27.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/route_admin_panel' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/route_admin_panel
+[27.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('route_admin_panel', 'cmake_prefix_path')
+[27.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/hook/cmake_prefix_path.ps1'
+[27.114s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/hook/cmake_prefix_path.dsv'
+[27.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/hook/cmake_prefix_path.sh'
+[27.115s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/lib'
+[27.115s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/bin'
+[27.115s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/lib/pkgconfig/route_admin_panel.pc'
+[27.115s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/lib/python3.8/site-packages'
+[27.115s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/bin'
+[27.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.ps1'
+[27.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.dsv'
+[27.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.sh'
+[27.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.bash'
+[27.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.zsh'
+[27.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/husarion_ws/install/route_admin_panel/share/colcon-core/packages/route_admin_panel)
+[27.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(route_admin_panel)
+[27.164s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel' for CMake module files
+[27.164s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel' for CMake config files
+[27.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('route_admin_panel', 'cmake_prefix_path')
+[27.184s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/hook/cmake_prefix_path.ps1'
+[27.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/hook/cmake_prefix_path.dsv'
+[27.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/hook/cmake_prefix_path.sh'
+[27.186s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/lib'
+[27.186s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/bin'
+[27.186s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/lib/pkgconfig/route_admin_panel.pc'
+[27.186s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/lib/python3.8/site-packages'
+[27.187s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/route_admin_panel/bin'
+[27.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.ps1'
+[27.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.dsv'
+[27.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.sh'
+[27.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.bash'
+[27.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/route_admin_panel/share/route_admin_panel/package.zsh'
+[27.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/husarion_ws/install/route_admin_panel/share/colcon-core/packages/route_admin_panel)
+[27.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/husarion/husarion_ws/src/rplidar_ros' with build type 'ament_cmake'
+[27.198s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/husarion/husarion_ws/src/rplidar_ros'
+[27.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[27.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[27.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/rplidar_ros
+[29.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/rplidar_ros
+[29.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/rplidar_ros -- -j2 -l2
+[39.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/rplidar_ros -- -j2 -l2
+[39.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/rplidar_ros
+[39.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[39.970s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros' for CMake module files
+[39.971s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros' for CMake config files
+[39.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[39.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[39.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[39.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/rplidar_ros
+[39.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[39.974s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/lib'
+[39.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[39.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[39.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[39.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[39.977s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/bin'
+[39.977s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[39.977s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/lib/python3.8/site-packages'
+[39.978s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/bin'
+[39.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[39.980s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[39.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[39.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[39.981s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[39.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/husarion_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[40.038s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[40.040s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros' for CMake module files
+[40.040s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros' for CMake config files
+[40.041s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[40.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[40.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[40.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[40.044s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/lib'
+[40.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'ld_library_path_lib')
+[40.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.ps1'
+[40.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.dsv'
+[40.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/hook/ld_library_path_lib.sh'
+[40.047s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/bin'
+[40.047s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[40.048s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/lib/python3.8/site-packages'
+[40.048s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/rplidar_ros/bin'
+[40.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[40.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[40.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[40.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[40.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[40.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/husarion_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[62.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/astra_camera -- -j2 -l2
+[62.697s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/astra_camera
+[62.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[62.733s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera' for CMake module files
+[62.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/astra_camera
+[62.734s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera' for CMake config files
+[62.735s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[62.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[62.737s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[62.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[62.738s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/lib'
+[62.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[62.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[62.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[62.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[62.741s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/bin'
+[62.741s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[62.741s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/lib/python3.8/site-packages'
+[62.741s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/bin'
+[62.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.ps1'
+[62.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.dsv'
+[62.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.sh'
+[62.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.bash'
+[62.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.zsh'
+[62.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/husarion_ws/install/astra_camera/share/colcon-core/packages/astra_camera)
+[62.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[62.802s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera' for CMake module files
+[62.803s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera' for CMake config files
+[62.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[62.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[62.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[62.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[62.807s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/lib'
+[62.807s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[62.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[62.809s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[62.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[62.809s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/bin'
+[62.810s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[62.810s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/lib/python3.8/site-packages'
+[62.810s] Level 1:colcon.colcon_core.environment:checking '/home/husarion/husarion_ws/install/astra_camera/bin'
+[62.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.ps1'
+[62.812s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.dsv'
+[62.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.sh'
+[62.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.bash'
+[62.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.zsh'
+[62.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/husarion/husarion_ws/install/astra_camera/share/colcon-core/packages/astra_camera)
+[62.815s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[62.815s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[62.815s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[62.816s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[62.836s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[62.836s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[62.836s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[62.836s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[62.836s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[62.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/husarion/husarion_ws/install/local_setup.ps1'
+[62.840s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/husarion/husarion_ws/install/_local_setup_util_ps1.py'
+[62.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/husarion/husarion_ws/install/setup.ps1'
+[62.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/husarion/husarion_ws/install/local_setup.sh'
+[62.844s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/husarion/husarion_ws/install/_local_setup_util_sh.py'
+[62.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/husarion/husarion_ws/install/setup.sh'
+[62.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/husarion/husarion_ws/install/local_setup.bash'
+[62.847s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/husarion/husarion_ws/install/setup.bash'
+[62.849s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/husarion/husarion_ws/install/local_setup.zsh'
+[62.849s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/husarion/husarion_ws/install/setup.zsh'

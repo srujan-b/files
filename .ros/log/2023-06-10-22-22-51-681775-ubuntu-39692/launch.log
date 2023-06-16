@@ -1,0 +1,5 @@
+1686460971.7027271 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-10-22-22-51-681775-ubuntu-39692
+1686460971.7065697 [INFO] [launch]: Default logging verbosity is set to INFO
+1686460972.1033089 [INFO] [sllidar_node-1]: process started with pid [39695]
+1686461116.0548553 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1686461116.3497319 [INFO] [sllidar_node-1]: process has finished cleanly [pid 39695]

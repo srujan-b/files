@@ -1,0 +1,231 @@
+[0.031s] Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/ros_astra_camera -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/astra_camera
+[0.135s] -- The C compiler identification is GNU 9.4.0
+[0.209s] -- The CXX compiler identification is GNU 9.4.0
+[0.218s] -- Check for working C compiler: /usr/bin/cc
+[0.309s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.311s] -- Detecting C compiler ABI info
+[0.400s] -- Detecting C compiler ABI info - done
+[0.413s] -- Detecting C compile features
+[0.413s] -- Detecting C compile features - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.523s] -- Detecting CXX compiler ABI info
+[0.631s] -- Detecting CXX compiler ABI info - done
+[0.645s] -- Detecting CXX compile features
+[0.646s] -- Detecting CXX compile features - done
+[0.649s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.677s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.677s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.894s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.946s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.955s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.051s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.087s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.181s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.247s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.251s] -- Looking for pthread.h
+[1.346s] -- Looking for pthread.h - found
+[1.347s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.441s] -- Looking for pthread_create in pthreads
+[1.514s] -- Looking for pthread_create in pthreads - not found
+[1.514s] -- Looking for pthread_create in pthread
+[1.603s] -- Looking for pthread_create in pthread - found
+[1.605s] -- Found Threads: TRUE  
+[1.791s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.946s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+[2.063s] -- Configuring done
+[2.085s] -- Generating done
+[2.087s] -- Build files have been written to: /home/husarion/husarion_ws/build/astra_camera
+[2.102s] Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/ros_astra_camera -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/astra_camera
+[2.103s] Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/astra_camera -- -j2 -l2
+[2.164s] Scanning dependencies of target astra_openni2
+[2.178s] [  4%] Creating directories for 'astra_openni2'
+[2.274s] [  9%] Performing download step (git clone) for 'astra_openni2'
+[2.300s] Cloning into 'astra_openni2'...
+[3.463s] Switched to a new branch 'orbbec_ros'
+[3.464s] Branch 'orbbec_ros' set up to track remote branch 'orbbec_ros' from 'origin'.
+[3.739s] [ 14%] Performing patch step for 'astra_openni2'
+[3.752s] patching file Source/Drivers/orbbec/Formats/XnFormatsMirror.cpp
+[3.752s] patching file Source/Drivers/orbbec/Sensor/XnFrameStreamProcessor.cpp
+[3.752s] patching file Source/Drivers/orbbec/Sensor/XnSensorFirmwareParams.cpp
+[3.837s] [ 19%] Performing update step for 'astra_openni2'
+[4.305s] Current branch orbbec_ros is up to date.
+[4.380s] [ 23%] Performing configure step for 'astra_openni2'
+[4.383s] no need to configure
+[4.415s] [ 28%] Performing build step for 'astra_openni2'
+[4.419s] make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[4.422s] ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[4.428s] ../../BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[7.243s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[7.243s]                  from [01m[K../Include/Linux-x86/XnPlatformLinux-x86.h:34[m[K,
+[7.243s]                  from [01m[K../Include/XnPlatform.h:53[m[K,
+[7.243s]                  from [01m[K../Include/XnOS.h:27[m[K,
+[7.243s]                  from [01m[K../Include/XnProfiling.h:27[m[K,
+[7.243s]                  from [01m[KXnProfiling.cpp:24[m[K:
+[7.243s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[7.244s]     inlined from ‘[01m[KXnStatus xnProfilingSectionStart(const char*, XnBool, XnProfilingHandle*)[m[K’ at [01m[KXnProfiling.cpp:220:11[m[K:
+[7.244s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 256 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+[7.244s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[7.244s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.706s] ../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[22.080s] ../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[22.360s] ../../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[23.089s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[23.090s]                  from [01m[K../../../Include/Linux-x86/OniPlatformLinux-x86.h:34[m[K,
+[23.090s]                  from [01m[K../../../Include/OniPlatform.h:41[m[K,
+[23.090s]                  from [01m[K../../../Include/Driver/OniDriverAPI.h:24[m[K,
+[23.090s]                  from [01m[KInclude/XnPropertySet.h:27[m[K,
+[23.090s]                  from [01m[KDDK/XnPropertySetInternal.h:24[m[K,
+[23.090s]                  from [01m[KDDK/XnPropertySet.cpp:24[m[K:
+[23.090s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[23.090s]     inlined from ‘[01m[KXnStatus XnPropertySetGetEnumerator(const XnPropertySet*, XnPropertySetEnumerator**, const XnChar*)[m[K’ at [01m[KDDK/XnPropertySet.cpp:339:10[m[K:
+[23.090s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+[23.090s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[23.090s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[24.120s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[24.121s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/Linux-x86/XnPlatformLinux-x86.h:34[m[K,
+[24.121s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPlatform.h:53[m[K,
+[24.121s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnLib.h:24[m[K,
+[24.121s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnMemory.h:24[m[K,
+[24.121s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnList.h:24[m[K,
+[24.121s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnHash.h:24[m[K,
+[24.121s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnStringsHash.h:27[m[K,
+[24.121s]                  from [01m[KDDK/XnDeviceBase.h:27[m[K,
+[24.121s]                  from [01m[KDDK/XnDeviceBase.cpp:24[m[K:
+[24.122s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[24.122s]     inlined from ‘[01m[Kvirtual XnStatus XnDeviceBase::DestroyStream(const XnChar*)[m[K’ at [01m[KDDK/XnDeviceBase.cpp:1028:9[m[K:
+[24.122s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+[24.122s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[24.122s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.095s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[25.095s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/Linux-x86/XnPlatformLinux-x86.h:34[m[K,
+[25.095s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPlatform.h:53[m[K,
+[25.095s]                  from [01m[KDDK/XnDeviceModule.h:27[m[K,
+[25.095s]                  from [01m[KDDK/XnDeviceModule.cpp:24[m[K:
+[25.096s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[25.096s]     inlined from ‘[01m[KXnDeviceModule::XnDeviceModule(const XnChar*)[m[K’ at [01m[KDDK/XnDeviceModule.cpp:40:9[m[K:
+[25.096s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+[25.096s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[25.096s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[28.107s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[28.107s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/Linux-x86/XnPlatformLinux-x86.h:34[m[K,
+[28.107s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPlatform.h:53[m[K,
+[28.107s]                  from [01m[KInclude/XnDevice.h:27[m[K,
+[28.107s]                  from [01m[KDDK/XnProperty.h:27[m[K,
+[28.107s]                  from [01m[KDDK/XnProperty.cpp:24[m[K:
+[28.107s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[28.107s]     inlined from ‘[01m[Kvoid XnProperty::UpdateName(const XnChar*, const XnChar*)[m[K’ at [01m[KDDK/XnProperty.cpp:53:9[m[K:
+[28.107s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+[28.107s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[28.107s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[28.107s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[28.107s]     inlined from ‘[01m[Kvoid XnProperty::UpdateName(const XnChar*, const XnChar*)[m[K’ at [01m[KDDK/XnProperty.cpp:55:10[m[K:
+[28.107s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+[28.107s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[28.108s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[39.149s] In file included from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnHash.h:26[m[K,
+[39.149s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnStringsHash.h:27[m[K,
+[39.149s]                  from [01m[KSensor/XnDeviceSensorIO.h:34[m[K,
+[39.149s]                  from [01m[KSensor/XnDeviceSensor.h:30[m[K,
+[39.149s]                  from [01m[KSensor/XnFirmwareCommands.h:27[m[K,
+[39.149s]                  from [01m[KSensor/XnSensorFirmware.h:28[m[K,
+[39.150s]                  from [01m[KSensor/XnSensorStreamHelper.h:28[m[K,
+[39.150s]                  from [01m[KSensor/XnSensorStreamHelper.cpp:24[m[K:
+[39.150s] [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPair.h:[m[K In member function ‘[01m[KXnStatus XnSensorStreamHelper::MapFirmwareProperty(XnActualIntProperty&, XnActualIntProperty&, XnBool, XnSensorStreamHelper::ConvertCallback)[m[K’:
+[39.150s] [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPair.h:32:67:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& cookie +36)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[39.150s]    32 |  Pair(const Pair& other) : first(other.first), second(other.second[01;35m[K)[m[K {}
+[39.150s]       |                                                                   [01;35m[K^[m[K
+[39.150s] [01m[KSensor/XnSensorStreamHelper.cpp:179:29:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& cookie +36)[m[K’ was declared here
+[39.150s]   179 |  XnSensorStreamHelperCookie [01;36m[Kcookie[m[K(&Property, &FirmwareProperty, bAllowChangeWhileOpen, pStreamToFirmwareFunc);
+[39.150s]       |                             [01;36m[K^~~~~~[m[K
+[39.150s] In file included from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnHash.h:26[m[K,
+[39.150s]                  from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnStringsHash.h:27[m[K,
+[39.150s]                  from [01m[KSensor/XnDeviceSensorIO.h:34[m[K,
+[39.150s]                  from [01m[KSensor/XnDeviceSensor.h:30[m[K,
+[39.150s]                  from [01m[KSensor/XnFirmwareCommands.h:27[m[K,
+[39.150s]                  from [01m[KSensor/XnSensorFirmware.h:28[m[K,
+[39.150s]                  from [01m[KSensor/XnSensorStreamHelper.h:28[m[K,
+[39.150s]                  from [01m[KSensor/XnSensorStreamHelper.cpp:24[m[K:
+[39.150s] [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPair.h:32:67:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& cookie +40)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[39.151s]    32 |  Pair(const Pair& other) : first(other.first), second(other.second[01;35m[K)[m[K {}
+[39.151s]       |                                                                   [01;35m[K^[m[K
+[39.151s] [01m[KSensor/XnSensorStreamHelper.cpp:179:29:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& cookie +40)[m[K’ was declared here
+[39.151s]   179 |  XnSensorStreamHelperCookie [01;36m[Kcookie[m[K(&Property, &FirmwareProperty, bAllowChangeWhileOpen, pStreamToFirmwareFunc);
+[39.151s]       |                             [01;36m[K^~~~~~[m[K
+[41.283s] ../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[41.537s] ../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[41.840s] ../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[42.100s] ../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[42.334s] ../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+[43.071s] [ 33%] Performing install step for 'astra_openni2'
+[43.322s] [ 38%] Completed 'astra_openni2'
+[43.363s] [ 38%] Built target astra_openni2
+[43.377s] Scanning dependencies of target astra_wrapper
+[43.430s] [ 42%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_convert.cpp.o
+[43.964s] [ 47%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_device.cpp.o
+[47.955s] [ 52%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_device_info.cpp.o
+[48.209s] [ 57%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_timer_filter.cpp.o
+[48.516s] [ 61%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_frame_listener.cpp.o
+[49.469s] [ 66%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_device_manager.cpp.o
+[51.200s] [ 71%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_exception.cpp.o
+[51.481s] [ 76%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_video_mode.cpp.o
+[51.727s] [ 80%] Linking CXX static library libastra_wrapper.a
+[51.799s] [ 80%] Built target astra_wrapper
+[51.813s] Scanning dependencies of target astra_driver_lib
+[51.859s] [ 85%] Building CXX object CMakeFiles/astra_driver_lib.dir/src/astra_driver.cpp.o
+[58.544s] [ 90%] Linking CXX static library libastra_driver_lib.a
+[58.626s] [ 90%] Built target astra_driver_lib
+[58.640s] Scanning dependencies of target astra_camera_node
+[58.686s] [ 95%] Building CXX object CMakeFiles/astra_camera_node.dir/ros/astra_camera_node.cpp.o
+[61.848s] [100%] Linking CXX executable astra_camera_node
+[62.179s] [100%] Built target astra_camera_node
+[62.194s] Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/astra_camera -- -j2 -l2
+[62.252s] Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/astra_camera
+[62.266s] -- Install configuration: ""
+[62.266s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/astra_camera/astra_camera_node
+[62.268s] -- Set runtime path of "/home/husarion/husarion_ws/install/astra_camera/lib/astra_camera/astra_camera_node" to ""
+[62.269s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/libastra_wrapper.a
+[62.271s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/libastra_driver_lib.a
+[62.275s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/libOpenNI2Orbbec.so
+[62.276s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2
+[62.276s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers
+[62.276s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/PSLink.ini
+[62.276s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/OniFile.ini
+[62.276s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/orbbec.ini
+[62.276s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/liborbbec.so
+[62.278s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/PS1080.ini
+[62.278s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera
+[62.278s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_device_manager.h
+[62.278s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_driver.h
+[62.278s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_device.h
+[62.278s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_video_mode.h
+[62.278s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/ros12_shim.h
+[62.279s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_frame_listener.h
+[62.279s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_exception.h
+[62.279s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_timer_filter.h
+[62.279s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_device_info.h
+[62.279s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_convert.h
+[62.279s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/56-orbbec-usb.rules
+[62.280s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/astra_camera/create_udev_rules
+[62.281s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[62.281s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[62.281s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[62.281s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[62.282s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[62.282s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[62.282s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[62.282s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[62.282s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[62.282s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[62.283s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[62.283s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[62.283s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.dsv
+[62.283s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[62.283s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.283s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[62.283s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[62.284s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[62.284s] -- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.xml
+[62.289s] Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/astra_camera

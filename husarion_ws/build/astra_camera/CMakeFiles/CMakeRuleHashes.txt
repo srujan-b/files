@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+e9d83a3ccbcf520eafe70e9b4b27a2f3 CMakeFiles/astra_camera_uninstall
+59b9d6b71f0c107fd77fc2c4573e1c65 CMakeFiles/astra_openni2
+6d527bcf377d27059d442fbda097eef1 CMakeFiles/astra_openni2-complete
+9cf32e9d2199428c4249ce97ba5adb44 astra_openni2/src/astra_openni2-stamp/astra_openni2-build
+88a18bb0c5a12ff57fb6e59c51241d56 astra_openni2/src/astra_openni2-stamp/astra_openni2-configure
+80a3b5130b04140bb20faa1ee60a16d6 astra_openni2/src/astra_openni2-stamp/astra_openni2-download
+4eb85658526dd43a2d979e6edad68d39 astra_openni2/src/astra_openni2-stamp/astra_openni2-install
+e1e401ff1a209f4d6e947fe4aa13417a astra_openni2/src/astra_openni2-stamp/astra_openni2-mkdir
+d2f6f5665bbcc9a60579f157cd8bb210 astra_openni2/src/astra_openni2-stamp/astra_openni2-patch
+090f89766c3a5388b2e1d7dfbe6bbe1f astra_openni2/src/astra_openni2-stamp/astra_openni2-update

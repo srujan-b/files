@@ -1,0 +1,4 @@
+1686372117.7722664 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-09-21-41-57-732820-ubuntu-10547
+1686372117.7736249 [INFO] [launch]: Default logging verbosity is set to INFO
+1686372118.5402896 [INFO] [map_saver_server-1]: process started with pid [10607]
+1686372118.5419993 [INFO] [lifecycle_manager-2]: process started with pid [10609]

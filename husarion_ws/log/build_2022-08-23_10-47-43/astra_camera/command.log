@@ -1,0 +1,6 @@
+Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/ros_astra_camera -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/astra_camera
+Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/husarion/husarion_ws/src/ros_astra_camera -DCMAKE_INSTALL_PREFIX=/home/husarion/husarion_ws/install/astra_camera
+Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/astra_camera -- -j2 -l2
+Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/husarion/husarion_ws/build/astra_camera -- -j2 -l2
+Invoking command in '/home/husarion/husarion_ws/build/astra_camera': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/astra_camera
+Invoked command in '/home/husarion/husarion_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/husarion/husarion_ws/build/astra_camera

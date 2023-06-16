@@ -1,0 +1,119 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system thread 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/husarion/husarion_ws/build/astra_camera
+Scanning dependencies of target astra_openni2
+[  4%] Creating directories for 'astra_openni2'
+[  9%] Performing download step (git clone) for 'astra_openni2'
+Branch 'orbbec_ros' set up to track remote branch 'orbbec_ros' from 'origin'.
+[ 14%] Performing patch step for 'astra_openni2'
+patching file Source/Drivers/orbbec/Formats/XnFormatsMirror.cpp
+patching file Source/Drivers/orbbec/Sensor/XnFrameStreamProcessor.cpp
+patching file Source/Drivers/orbbec/Sensor/XnSensorFirmwareParams.cpp
+[ 19%] Performing update step for 'astra_openni2'
+Current branch orbbec_ros is up to date.
+[ 23%] Performing configure step for 'astra_openni2'
+no need to configure
+[ 28%] Performing build step for 'astra_openni2'
+[ 33%] Performing install step for 'astra_openni2'
+[ 38%] Completed 'astra_openni2'
+[ 38%] Built target astra_openni2
+Scanning dependencies of target astra_wrapper
+[ 42%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_convert.cpp.o
+[ 47%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_device.cpp.o
+[ 52%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_device_info.cpp.o
+[ 57%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_timer_filter.cpp.o
+[ 61%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_frame_listener.cpp.o
+[ 66%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_device_manager.cpp.o
+[ 71%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_exception.cpp.o
+[ 76%] Building CXX object CMakeFiles/astra_wrapper.dir/src/astra_video_mode.cpp.o
+[ 80%] Linking CXX static library libastra_wrapper.a
+[ 80%] Built target astra_wrapper
+Scanning dependencies of target astra_driver_lib
+[ 85%] Building CXX object CMakeFiles/astra_driver_lib.dir/src/astra_driver.cpp.o
+[ 90%] Linking CXX static library libastra_driver_lib.a
+[ 90%] Built target astra_driver_lib
+Scanning dependencies of target astra_camera_node
+[ 95%] Building CXX object CMakeFiles/astra_camera_node.dir/ros/astra_camera_node.cpp.o
+[100%] Linking CXX executable astra_camera_node
+[100%] Built target astra_camera_node
+-- Install configuration: ""
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/astra_camera/astra_camera_node
+-- Set runtime path of "/home/husarion/husarion_ws/install/astra_camera/lib/astra_camera/astra_camera_node" to ""
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/libastra_wrapper.a
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/libastra_driver_lib.a
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/libOpenNI2Orbbec.so
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/PSLink.ini
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/OniFile.ini
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/orbbec.ini
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/liborbbec.so
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/OpenNI2/Drivers/PS1080.ini
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_device_manager.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_driver.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_device.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_video_mode.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/ros12_shim.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_frame_listener.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_exception.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_timer_filter.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_device_info.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/include/astra_camera/astra_convert.h
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/56-orbbec-usb.rules
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/lib/astra_camera/create_udev_rules
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/path.sh
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/local_setup.bash
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/local_setup.sh
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.dsv
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+-- Installing: /home/husarion/husarion_ws/install/astra_camera/share/astra_camera/package.xml

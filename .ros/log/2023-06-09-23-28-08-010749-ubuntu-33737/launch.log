@@ -1,0 +1,6 @@
+1686378488.0249476 [INFO] [launch]: All log files can be found below /home/husarion/.ros/log/2023-06-09-23-28-08-010749-ubuntu-33737
+1686378488.0267472 [INFO] [launch]: Default logging verbosity is set to INFO
+1686378488.4907551 [WARNING] [launch_ros.actions.node]: Parameter file path is not a file: /home/husarion/ROS2swarm/install/ros2swarm/share/ros2swarm/config/rosbot/movement_pattern/basic/drive_pattern.yaml
+1686378488.5044339 [INFO] [drive_pattern-1]: process started with pid [33764]
+1686378674.7049265 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+1686378674.9889078 [ERROR] [drive_pattern-1]: process has died [pid 33764, exit code -2, cmd '/home/husarion/ROS2swarm/install/ros2swarm/lib/ros2swarm/drive_pattern --ros-args --log-level info --ros-args -r __ns:=/robot_namespace_1'].

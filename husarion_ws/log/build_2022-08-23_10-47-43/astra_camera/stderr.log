@@ -1,0 +1,106 @@
+Cloning into 'astra_openni2'...
+Switched to a new branch 'orbbec_ros'
+make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+../../BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K../Include/Linux-x86/XnPlatformLinux-x86.h:34[m[K,
+                 from [01m[K../Include/XnPlatform.h:53[m[K,
+                 from [01m[K../Include/XnOS.h:27[m[K,
+                 from [01m[K../Include/XnProfiling.h:27[m[K,
+                 from [01m[KXnProfiling.cpp:24[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[KXnStatus xnProfilingSectionStart(const char*, XnBool, XnProfilingHandle*)[m[K’ at [01m[KXnProfiling.cpp:220:11[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 256 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+../../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K../../../Include/Linux-x86/OniPlatformLinux-x86.h:34[m[K,
+                 from [01m[K../../../Include/OniPlatform.h:41[m[K,
+                 from [01m[K../../../Include/Driver/OniDriverAPI.h:24[m[K,
+                 from [01m[KInclude/XnPropertySet.h:27[m[K,
+                 from [01m[KDDK/XnPropertySetInternal.h:24[m[K,
+                 from [01m[KDDK/XnPropertySet.cpp:24[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[KXnStatus XnPropertySetGetEnumerator(const XnPropertySet*, XnPropertySetEnumerator**, const XnChar*)[m[K’ at [01m[KDDK/XnPropertySet.cpp:339:10[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/Linux-x86/XnPlatformLinux-x86.h:34[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPlatform.h:53[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnLib.h:24[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnMemory.h:24[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnList.h:24[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnHash.h:24[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnStringsHash.h:27[m[K,
+                 from [01m[KDDK/XnDeviceBase.h:27[m[K,
+                 from [01m[KDDK/XnDeviceBase.cpp:24[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kvirtual XnStatus XnDeviceBase::DestroyStream(const XnChar*)[m[K’ at [01m[KDDK/XnDeviceBase.cpp:1028:9[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/Linux-x86/XnPlatformLinux-x86.h:34[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPlatform.h:53[m[K,
+                 from [01m[KDDK/XnDeviceModule.h:27[m[K,
+                 from [01m[KDDK/XnDeviceModule.cpp:24[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[KXnDeviceModule::XnDeviceModule(const XnChar*)[m[K’ at [01m[KDDK/XnDeviceModule.cpp:40:9[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/string.h:495[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/Linux-x86/XnPlatformLinux-x86.h:34[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPlatform.h:53[m[K,
+                 from [01m[KInclude/XnDevice.h:27[m[K,
+                 from [01m[KDDK/XnProperty.h:27[m[K,
+                 from [01m[KDDK/XnProperty.cpp:24[m[K:
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kvoid XnProperty::UpdateName(const XnChar*, const XnChar*)[m[K’ at [01m[KDDK/XnProperty.cpp:53:9[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+    inlined from ‘[01m[Kvoid XnProperty::UpdateName(const XnChar*, const XnChar*)[m[K’ at [01m[KDDK/XnProperty.cpp:55:10[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound 200 equals destination size [[01;35m[K-Wstringop-truncation[m[K]
+  106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnHash.h:26[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnStringsHash.h:27[m[K,
+                 from [01m[KSensor/XnDeviceSensorIO.h:34[m[K,
+                 from [01m[KSensor/XnDeviceSensor.h:30[m[K,
+                 from [01m[KSensor/XnFirmwareCommands.h:27[m[K,
+                 from [01m[KSensor/XnSensorFirmware.h:28[m[K,
+                 from [01m[KSensor/XnSensorStreamHelper.h:28[m[K,
+                 from [01m[KSensor/XnSensorStreamHelper.cpp:24[m[K:
+[01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPair.h:[m[K In member function ‘[01m[KXnStatus XnSensorStreamHelper::MapFirmwareProperty(XnActualIntProperty&, XnActualIntProperty&, XnBool, XnSensorStreamHelper::ConvertCallback)[m[K’:
+[01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPair.h:32:67:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& cookie +36)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   32 |  Pair(const Pair& other) : first(other.first), second(other.second[01;35m[K)[m[K {}
+      |                                                                   [01;35m[K^[m[K
+[01m[KSensor/XnSensorStreamHelper.cpp:179:29:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& cookie +36)[m[K’ was declared here
+  179 |  XnSensorStreamHelperCookie [01;36m[Kcookie[m[K(&Property, &FirmwareProperty, bAllowChangeWhileOpen, pStreamToFirmwareFunc);
+      |                             [01;36m[K^~~~~~[m[K
+In file included from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnHash.h:26[m[K,
+                 from [01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnStringsHash.h:27[m[K,
+                 from [01m[KSensor/XnDeviceSensorIO.h:34[m[K,
+                 from [01m[KSensor/XnDeviceSensor.h:30[m[K,
+                 from [01m[KSensor/XnFirmwareCommands.h:27[m[K,
+                 from [01m[KSensor/XnSensorFirmware.h:28[m[K,
+                 from [01m[KSensor/XnSensorStreamHelper.h:28[m[K,
+                 from [01m[KSensor/XnSensorStreamHelper.cpp:24[m[K:
+[01m[K../../../ThirdParty/PSCommon/XnLib/Include/XnPair.h:32:67:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& cookie +40)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   32 |  Pair(const Pair& other) : first(other.first), second(other.second[01;35m[K)[m[K {}
+      |                                                                   [01;35m[K^[m[K
+[01m[KSensor/XnSensorStreamHelper.cpp:179:29:[m[K [01;36m[Knote: [m[K‘[01m[K*((void*)& cookie +40)[m[K’ was declared here
+  179 |  XnSensorStreamHelperCookie [01;36m[Kcookie[m[K(&Property, &FirmwareProperty, bAllowChangeWhileOpen, pStreamToFirmwareFunc);
+      |                             [01;36m[K^~~~~~[m[K
+../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
+../../ThirdParty/PSCommon/BuildSystem/CommonDefs.mak:40: HOST_PLATFORM is x64
